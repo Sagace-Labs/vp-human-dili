@@ -1,0 +1,28 @@
+Training source
+
+The full training table and its source snapshot are not redistributed.
+The pinned source is Srijit Seal's DILI_Goldstandard_1111.csv at commit
+98b7a1b7fba4547cefe936b9890b44baab10e490 in https://github.com/srijitseal/DILI.
+That repository carries an MIT software licence, copyright 2024 Srijit Seal.
+Its software licence does not establish every underlying clinical-data term.
+Users explicitly fetch the table and must respect the original sources' terms.
+
+Validation labels and structures
+
+data/validation contains factual FDA DILIrank 2.0 drug classifications and
+PubChem-resolved molecular structures, together with corresponding source
+assertions. FDA and NCBI US government-authored information is public domain;
+third-party rights and attribution in source records remain applicable.
+This package does not claim ownership of source assertions or confer rights
+to third-party material. FDA and PubChem do not endorse this model.
+
+Sources:
+https://www.fda.gov/science-research/liver-toxicity-knowledge-base-ltkb/drug-induced-liver-injury-rank-dilirank-20-dataset
+https://www.fda.gov/about-fda/about-website/website-policies
+https://www.ncbi.nlm.nih.gov/home/about/policies/
+
+Example fixture
+
+data/example/human_dili_example.parquet contains synthetic molecular structures
+and labels, solely for offline harness tests. It contains no clinical training
+records and is distributed under the package's Apache-2.0 licence.

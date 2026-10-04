@@ -1,0 +1,35 @@
+[project]
+name = "vp-human-dili"
+version = "1.0.0"
+description = "Human drug-level DILI labels predicted from molecular structure."
+readme = "README.md"
+requires-python = ">=3.11,<3.13"
+license = { text = "Apache-2.0" }
+authors = [{ name = "Sagace Labs" }]
+keywords = ["cheminformatics", "toxicology", "DILI", "QSAR"]
+dependencies = [
+    "vp-core>=1.8,<2",
+    "scikit-learn==1.9.0",
+    "rdkit==2026.3.5",
+    "numpy>=1.26,<3",
+    "pandas>=2.2,<4",
+    "requests>=2.31",
+]
+
+[project.urls]
+Source = "https://github.com/Sagace-Labs/vp-human-dili"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/vp_human_dili"]
+artifacts = ["src/vp_human_dili/versions/**"]
+
+[tool.hatch.build.targets.wheel.force-include]
+"data/example" = "vp_human_dili/data/example"
+"data/validation" = "vp_human_dili/data/validation"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

@@ -1,0 +1,1780 @@
+Drug Induced Liver Injury Rank (DILIrank 2.0) Dataset | FDA (https://www.fda.gov/science-research/liver-toxicity-knowledge-base-ltkb/drug-induced-liver-injury-rank-dilirank-20-dataset)
+citeturn20view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"turn14view0","lineno":83}); Total lines: 1444
+L0:   * cite0†Skip to main content L1:   * cite1†Skip to FDA Search L2:   * cite2†Skip to in this section menu L3:   * cite3†Skip to footer links L4: 
+L5: cite4†iframe†www.googletagmanager.com L6: 
+L7:   *   Search
+L8:   *   Menu
+L9: 
+L10: Search FDA [Input: Search FDA] Submit search
+L11: 
+L12: ## Featured
+L13: 
+L14:   * cite5†Report a Product Problem†contact.fda.gov L15:   * cite6†Contact FDA L16:   * cite7†FDA Guidance Documents L17:   * cite8†Recalls, Market Withdrawals and Safety Alerts L18:   * cite9†Press Announcements L19:   * cite10†Warning Letters L20:   * cite11†Advisory Committees L21:   * cite12†En Español L22: ## Products
+L23: 
+L24:   * cite13†Food L25:   * cite14†Drugs L26:   * cite15†Medical Devices L27:   * cite16†Radiation-Emitting Products L28:   * cite17†Vaccines, Blood, and Biologics L29:   * cite18†Animal and Veterinary L30:   * cite19†Cosmetics L31:   * cite20†Tobacco Products L32: ## Topics
+L33: 
+L34:   * cite21†About FDA L35:   * cite22†Combination Products L36:   * cite23†Regulatory Information L37:   * cite24†Safety L38:   * cite25†Emergency Preparedness L39:   * cite26†International Programs L40:   * cite27†News and Events L41:   * cite28†Training and Continuing Education L42:   * cite29†Inspections and Compliance L43:   * cite30†Science and Research L44: ## Information For
+L45: 
+L46:   * cite31†Consumers L47:   * cite32†Patients L48:   * cite33†Industry L49:   * cite34†Health Professionals L50:   * cite35†Federal, State and Local Officials L51: 
+L52:   * cite36†Liver Toxicity Knowledge Base (LTKB) L53: 
+L54:     * cite37†LTKB Benchmark Dataset L55:     * cite38†Drug-Induced Liver Injury Severity and Toxicity (DILIst) Dataset L56:     * cite39†Liver Toxicity Knowledge Base Publications L57:     * cite40†Liver Toxicity Knowledge Base Publications – Top 15 Most-Cited Publications L58: # Drug Induced Liver Injury Rank (DILIrank 2.0) Dataset
+L59: 
+L60: Largest reference drug list ranked by the risk for developing DILI in humans
+L61: The DILIrank 2.0 dataset comprises 1,336 FDA-approved drugs, expanding from 1,036 drugs in DILIrank 1.0 with the addition of 300 drugs approved between 2010 and 2021. Each drug is assigned to one of four categories based on its potential to cause drug-induced liver injury (DILI). The classification is derived from a comprehensive review of hepatotoxicity descriptions in FDA-approved labeling and causality evidence from the literature.
+L62: As the largest publicly available annotated DILI dataset, DILIrank 2.0 categorizes drugs into three groups with established causal relationships but varying levels of DILI severity (vMost-DILI-concern, vLess-DILI-concern, and vNo-DILI-concern) and one group with undetermined causality (Ambiguous-DILI-concern). Among the original drugs, 49 were reclassified in DILIrank 2.0, resulting in the following distribution:
+L63:   * 217 vMost-DILI-concern drugs
+L64:   * 351 vLess-DILI-concern drugs
+L65:   * 414 vNo-DILI-concern drugs
+L66:   * 354 Ambiguous-DILI-concern drugs
+L67: 
+L68: cite41†Download Complete List L69: #### Please let us know if you download the file by contacting NCTRBioinformaticsSupport@fda.hhs.gov.
+L70: 
+L71: ####
+L72: ## Reference
+L73: 
+L74: cite42†DILIrank 2.0: An updated and expanded database for drug-induced liver injury risk based on FDA labeling and a literature review†pubmed.ncbi.nlm.nih.gov .
+L75: Olubamiwa AO, Qu Y, Connor S, Tong W, Li D, Chen M.
+L76: Drug Discovery Today. 2025, 30(11):104485.
+L77: cite43†DILIrank: the largest reference drug list ranked by the risk for developing drug-induced liver injury in humans†pubmed.ncbi.nlm.nih.gov .
+L78: Chen M., Suzuki A., Thakkar S., Yu K., Hu C., and Tong W.
+L79: Drug Discov Today. 2016, 21(4): 648-653.
+L80: ## Contact information
+L81: 
+L82: Questions or Suggestions: Minjun Chen, Ph.D. (Minjun.Chen@fda.hhs.gov) or Weida Tong, Ph.D. (Weida.Tong@fda.hhs.gov).
+L83: LTKBID  | CompoundName  | SeverityClass  | LabelSection  | vDILI-Concern  | Comment
+L84: LT00003  | Mercaptopurine  | 8  | Warnings & precautions  | ^{v}Most-DILI-concern  | Unchanged
+L85: LT00004  | Acetaminophen  | 5  | Warnings & precautions  | ^{v}Most-DILI-concern  | Unchanged
+L86: LT00006  | Azathioprine  | 5  | Warnings & precautions  | ^{v}Most-DILI-concern  | Unchanged
+L87: LT00009  | Chlorpheniramine maleate  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L88: LT00011  | Clofibrate  | 3  | Warnings & precautions  | ^{v}Less-DILI-concern  | Unchanged
+L89: LT00013  | Cyclophosphamide  | 5  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L90: LT00015  | Dopamine hydrochloride  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L91: LT00016  | Estradiol valerate  | 2  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L92: LT00018  | Fluoxetine hydrochloride  | 3  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L93: LT00020  | Gemfibrozil  | 4  | Warnings & precautions  | ^{v}Most-DILI-concern  | Unchanged
+L94: LT00022  | Indomethacin  | 8  | Warnings & precautions  | ^{v}Most-DILI-concern  | Unchanged
+L95: LT00023  | Ketoprofen  | 3  | Warnings & precautions  | ^{v}Less-DILI-concern  | Unchanged
+L96: LT00024  | Mannitol  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L97: LT00026  | Methotrexate sodium  | 3  | Box warning  | ^{v}Most-DILI-concern  | Unchanged
+L98: LT00030  | Phenobarbital sodium  | 3  | Warnings & precautions  | ^{v}Less-DILI-concern  | Unchanged
+L99: LT00032  | Phenytoin  | 8  | Warnings & precautions  | ^{v}Most-DILI-concern  | Unchanged
+L100: LT00034  | Rifampin  | 8  | Warnings & precautions  | ^{v}Most-DILI-concern  | Unchanged
+L101: LT00036  | Tetracycline phosphate complex  | 2  | Warnings & precautions  | ^{v}Less-DILI-concern  | Unchanged
+L102: LT00040  | Abacavir sulfate  | 8  | Warnings & precautions  | ^{v}MOST-DILI-concern  | Unchanged
+L103: LT00041  | Acyclovir  | 5  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L104: LT00043  | Allopurinol  | 8  | Warnings & precautions  | ^{v}Most-DILI-concern  | Unchanged
+L105: LT00045  | Amineptine  | 8  | Withdrawn  | ^{v}Most-DILI-concern  | Unchanged
+L106: LT00046  | Amiodarone hydrochloride  | 8  | Box warning  | ^{v}Most-DILI-concern  | Unchanged
+L107: LT00047  | Amitriptyline hydrochloride  | 5  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L108: LT00048  | Amphotericin B  | 3  | Warnings & precautions  | ^{v}Less-DILI-concern  | Unchanged
+L109: LT00049  | Ampicillin sodium  | 3  | Warnings & precautions  | ^{v}Less-DILI-concern  | Unchanged
+L110: LT00052  | Donepezil hydrochloride  | 3  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L111: LT00053  | Aspirin  | 0  | No match  | ^{v}Less-DILI-concern  | Unchanged
+L112: LT00054  | Aminohippurate sodium  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L113: LT00056  | Bicalutamide  | 8  | Warnings & precautions  | ^{v}Most-DILI-concern  | Unchanged
+L114: LT00058  | Bupropion hydrochloride  | 5  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L115: LT00059  | Captopril  | 7  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L116: LT00060  | Carbamazepine  | 7  | Warnings & precautions  | ^{v}Most-DILI-concern  | Unchanged
+L117: LT00061  | Carboplatin  | 3  | Warnings & precautions  | ^{v}Less-DILI-concern  | Unchanged
+L118: LT00062  | Ceftazidime  | 3  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L119: LT00065  | Chenodiol  | 8  | Warnings & precautions  | Ambiguous-DILI-concern  | Unchanged
+L120: LT00066  | Chlorcyclizine hydrochloride  | 0  | No match  | ^{v}Less-DILI-concern  | Unchanged
+L121: LT00067  | Chlorzoxazone  | 8  | Warnings & precautions  | ^{v}Most-DILI-concern  | Unchanged
+L122: LT00068  | Chlorpromazine hydrochloride  | 2  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L123: LT00071  | Cisplatin  | 3  | Warnings & precautions  | ^{v}Less-DILI-concern  | Unchanged
+L124: LT00074  | Dimercaprol  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L125: LT00076  | Colchicine  | 6  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L126: LT00077  | Corticotropin  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L127: LT00079  | Dactinomycin  | 8  | Warnings & precautions  | ^{v}Most-DILI-concern  | Unchanged
+L128: LT00080  | Dantrolene sodium  | 8  | Box warning  | ^{v}Most-DILI-concern  | Unchanged
+L129: LT00081  | Demeclocycline hydrochloride  | 3  | Warnings & precautions  | Ambiguous-DILI-concern  | Unchanged
+L130: LT00082  | Dexamethasone  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L131: LT00083  | Propoxyphene hydrochloride  | 3  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L132: LT00084  | Diclofenac sodium  | 8  | Warnings & precautions  | ^{v}Most-DILI-concern  | Unchanged
+L133: LT00085  | Diflunisal  | 8  | Warnings & precautions  | ^{v}Most-DILI-concern  | Unchanged
+L134: LT00087  | Diphenhydramine hydrochloride  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L135: LT00091  | Epirubicin hydrochloride  | 3  | Warnings & precautions  | Ambiguous-DILI-concern  | Unchanged
+L136: LT00092  | Erythromycin estolate  | 5  | Warnings & precautions  | ^{v}Most-DILI-concern  | Unchanged
+L137: LT00094  | Etoposide  | 3  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L138: LT00095  | Famotidine  | 3  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L139: LT00097  | Felbamate  | 7  | Box warning  | ^{v}Most-DILI-concern  | Unchanged
+L140: LT00098  | Fenofibrate  | 3  | Warnings & precautions  | ^{v}Less-DILI-concern  | Unchanged
+L141: LT00099  | Fenoprofen calcium  | 8  | Warnings & precautions  | ^{v}Most-DILI-concern  | Unchanged
+L142: LT00101  | Flutamide  | 8  | Box warning  | ^{v}Most-DILI-concern  | Unchanged
+L143: LT00106  | Hydroxyurea  | 8  | Warnings & precautions  | ^{v}Most-DILI-concern  | Unchanged
+L144: LT00107  | Imatinib mesylate  | 8  | Warnings & precautions  | ^{v}Most-DILI-concern  | Unchanged
+L145: LT00108  | Imipramine hydrochloride  | 3  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L146: LT00109  | Iproniazid  | 8  | Withdrawn  | ^{v}Most-DILI-concern  | Unchanged
+L147: LT00110  | Hydroxyprogesterone caproate  | 2  | Warnings & precautions  | Ambiguous-DILI-concern  | Unchanged
+L148: LT00111  | Ketoconazole  | 8  | Box warning  | ^{v}Most-DILI-concern  | Unchanged
+L149: LT00112  | Labetalol hydrochloride  | 8  | Warnings & precautions  | ^{v}Most-DILI-concern  | Unchanged
+L150: LT00113  | Leflunomide  | 8  | Box warning  | ^{v}Most-DILI-concern  | Unchanged
+L151: LT00116  | Mefenamic acid  | 8  | Warnings & precautions  | ^{v}Most-DILI-concern  | Unchanged
+L152: LT00117  | Meloxicam  | 3  | Warnings & precautions  | ^{v}Less-DILI-concern  | Unchanged
+L153: LT00119  | Metformin hydrochloride  | 0  | No match  | ^{v}Less-DILI-concern  | Unchanged
+L154: LT00121  | Methyldopa  | 8  | Warnings & precautions  | ^{v}Most-DILI-concern  | Unchanged
+L155: LT00124  | Nefazodone hydrochloride  | 8  | Box warning  | ^{v}Most-DILI-concern  | Unchanged
+L156: LT00125  | Nitrofurantoin  | 8  | Warnings & precautions  | ^{v}Most-DILI-concern  | Unchanged
+L157: LT00126  | Olsalazine sodium  | 8  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L158: LT00128  | Paroxetine hydrochloride  | 8  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L159: LT00129  | Pentamidine isethionate  | 3  | Warnings & precautions  | ^{v}Less-DILI-concern  | Unchanged
+L160: LT00130  | Pentobarbital sodium  | 3  | Warnings & precautions  | Ambiguous-DILI-concern  | Unchanged
+L161: LT00131  | Perhexiline  | 8  | Withdrawn  | ^{v}Most-DILI-concern  | Unchanged
+L162: LT00133  | Physostigmine salicylate  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L163: LT00134  | Pioglitazone hydrochloride  | 3  | Warnings & precautions  | ^{v}Less-DILI-concern  | Unchanged
+L164: LT00136  | Propylthiouracil  | 8  | Box warning  | ^{v}Most-DILI-concern  | Unchanged
+L165: LT00137  | Pseudoephedrine hydrochloride  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L166: LT00138  | Ranitidine hydrochloride  | 5  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L167: LT00139  | Rifabutin  | 5  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L168: LT00140  | Rosiglitazone maleate  | 3  | Warnings & precautions  | ^{v}Less-DILI-concern  | Unchanged
+L169: LT00141  | Indocyanine green  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L170: LT00142  | Simvastatin  | 3  | Warnings & precautions  | ^{v}Less-DILI-concern  | Unchanged
+L171: LT00143  | Spironolactone  | 2  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L172: LT00144  | Stavudine  | 8  | Box warning  | ^{v}Most-DILI-concern  | Unchanged
+L173: LT00145  | Streptomycin sulfate  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L174: LT00146  | Sulfadiazine  | 3  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L175: LT00147  | Sulfasalazine  | 5  | Warnings & precautions  | ^{v}Most-DILI-concern  | Unchanged
+L176: LT00148  | Sulindac  | 8  | Warnings & precautions  | ^{v}Most-DILI-concern  | Unchanged
+L177: LT00152  | Tamoxifen citrate  | 8  | Warnings & precautions  | ^{v}Most-DILI-concern  | Unchanged
+L178: LT00153  | Temozolomide  | 4  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L179: LT00154  | Theophylline sodium glycinate  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L180: LT00155  | Tizanidine hydrochloride  | 8  | Warnings & precautions  | ^{v}Most-DILI-concern  | Unchanged
+L181: LT00156  | Tolcapone  | 8  | Box warning  | ^{v}Most-DILI-concern  | Unchanged
+L182: LT00158  | Toremifene citrate  | 3  | Warnings & precautions  | Ambiguous-DILI-concern  | Unchanged
+L183: LT00160  | Valproic acid  | 8  | Box warning  | ^{v}Most-DILI-concern  | Unchanged
+L184: LT00161  | Vancomycin hydrochloride  | 0  | No match  | ^{v}Less-DILI-concern  | Unchanged
+L185: LT00162  | Vitamin A palmitate  | 3  | Warnings & precautions  | ^{v}Less-DILI-concern  | Unchanged
+L186: LT00163  | Zidovudine  | 8  | Box warning  | ^{v}Most-DILI-concern  | Unchanged
+L187: LT00164  | Zolpidem tartrate  | 7  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L188: LT00165  | Zonisamide  | 2  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L189: LT00166  | Pyrazinamide  | 3  | Warnings & precautions  | ^{v}Less-DILI-concern  | Unchanged
+L190: LT00167  | Finasteride  | 0  | No match  | ^{v}Less-DILI-concern  | Unchanged
+L191: LT00168  | Troglitazone  | 8  | Withdrawn  | ^{v}Most-DILI-concern  | Unchanged
+L192: LT00172  | Fluvastatin sodium  | 3  | Warnings & precautions  | ^{v}Less-DILI-concern  | Unchanged
+L193: LT00173  | Glimepiride  | 7  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L194: LT00174  | Venlafaxine hydrochloride  | 7  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L195: LT00175  | Amlodipine besylate  | 5  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L196: LT00177  | Vinblastine sulfate  | 0  | No match  | ^{v}Less-DILI-concern  | Revised
+L197: LT00178  | Ciprofloxacin hydrochloride  | 7  | Warnings & precautions  | ^{v}Most-DILI-concern  | Unchanged
+L198: LT00179  | Fluconazole  | 8  | Warnings & precautions  | ^{v}Most-DILI-concern  | Unchanged
+L199: LT00180  | Prednisone  | 3  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L200: LT00181  | Lorazepam  | 3  | Warnings & precautions  | ^{v}Less-DILI-concern  | Revised
+L201: LT00182  | Itraconazole  | 8  | Warnings & precautions  | ^{v}Most-DILI-concern  | Unchanged
+L202: LT00183  | Raloxifene hydrochloride  | 0  | No match  | ^{v}Less-DILI-concern  | Revised
+L203: LT00184  | Mifepristone  | 0  | No match  | ^{v}Less-DILI-concern  | Revised
+L204: LT00185  | Clomipramine hydrochloride  | 8  | Warnings & precautions  | ^{v}Most-DILI-concern  | Unchanged
+L205: LT00186  | Pravastatin sodium  | 3  | Warnings & precautions  | ^{v}Less-DILI-concern  | Unchanged
+L206: LT00187  | Clarithromycin  | 8  | Warnings & precautions  | ^{v}Most-DILI-concern  | Unchanged
+L207: LT00188  | Hydrocortisone acetate  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L208: LT00192  | Progesterone  | 2  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L209: LT00194  | Ergocalciferol  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L210: LT00199  | Ibuprofen  | 3  | Warnings & precautions  | ^{v}Less-DILI-concern  | Unchanged
+L211: LT00200  | Isoproterenol hydrochloride  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L212: LT00204  | Ketorolac tromethamine  | 3  | Warnings & precautions  | ^{v}Less-DILI-concern  | Unchanged
+L213: LT00205  | Promethazine hydrochloride  | 5  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L214: LT00206  | Omeprazole  | 4  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L215: LT00207  | Carvedilol  | 3  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L216: LT00209  | Cytarabine  | 3  | Box warning  | ^{v}Most-DILI-concern  | Unchanged
+L217: LT00211  | Norethindrone  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L218: LT00213  | Tromethamine  | 6  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L219: LT00216  | Pergolide mesylate  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L220: LT00217  | Nisoldipine  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L221: LT00219  | Citalopram hydrobromide  | 7  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L222: LT00220  | Megestrol acetate  | 1  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L223: LT00222  | Methyltestosterone  | 2  | Warnings & precautions  | ^{v}Less-DILI-concern  | Unchanged
+L224: LT00223  | Testosterone enanthate  | 8  | Warnings & precautions  | ^{v}Most-DILI-concern  | Unchanged
+L225: LT00225  | Praziquantel  | 3  | Warnings & precautions  | Ambiguous-DILI-concern  | Unchanged
+L226: LT00227  | Ticlopidine hydrochloride  | 4  | Warnings & precautions  | ^{v}Most-DILI-concern  | Unchanged
+L227: LT00230  | Diazepam  | 4  | Adverse reactions  | ^{v}Less-DILI-concern  | Revised
+L228: LT00233  | Clomiphene citrate  | 3  | Warnings & precautions  | ^{v}Less-DILI-concern  | Unchanged
+L229: LT00234  | Isotretinoin  | 5  | Warnings & precautions  | ^{v}Most-DILI-concern  | Unchanged
+L230: LT00235  | Oxymetholone  | 7  | Box warning  | ^{v}Most-DILI-concern  | Unchanged
+L231: LT00240  | Etodolac  | 8  | Warnings & precautions  | ^{v}Most-DILI-concern  | Unchanged
+L232: LT00243  | Glipizide  | 3  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L233: LT00246  | Pemoline  | 8  | Withdrawn  | ^{v}Most-DILI-concern  | Unchanged
+L234: LT00248  | Clotrimazole  | 3  | Warnings & precautions  | ^{v}Less-DILI-concern  | Unchanged
+L235: LT00252  | Celecoxib  | 3  | Warnings & precautions  | ^{v}Less-DILI-concern  | Unchanged
+L236: LT00256  | Amoxapine  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L237: LT00257  | Iothalamate meglumine  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L238: LT00258  | Atorvastatin calcium  | 5  | Warnings & precautions  | ^{v}Most-DILI-concern  | Unchanged
+L239: LT00259  | Olanzapine  | 3  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L240: LT00260  | Nevirapine  | 8  | Box warning  | ^{v}Most-DILI-concern  | Unchanged
+L241: LT00261  | Primidone  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L242: LT00262  | Vinorelbine tartrate  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L243: LT00263  | Anastrozole  | 3  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L244: LT00264  | Rabeprazole sodium  | 3  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L245: LT00265  | Azithromycin  | 7  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L246: LT00266  | Tolazamide  | 2  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L247: LT00267  | Quetiapine fumarate  | 3  | Warnings & precautions  | ^{v}Less-DILI-concern  | Unchanged
+L248: LT00270  | Famciclovir  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L249: LT00277  | Atenolol  | 4  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L250: LT00278  | Benzbromarone  | 8  | Withdrawn  | ^{v}Most-DILI-concern  | Unchanged
+L251: LT00279  | Bromocriptine mesylate  | 3  | Warnings & precautions  | ^{v}Less-DILI-concern  | Unchanged
+L252: LT00280  | Busulfan  | 8  | Warnings & precautions  | ^{v}Most-DILI-concern  | Unchanged
+L253: LT00286  | Chlorambucil  | 3  | Warnings & precautions  | ^{v}Less-DILI-concern  | Unchanged
+L254: LT00287  | Clozapine  | 5  | Warnings & precautions  | ^{v}Most-DILI-concern  | Unchanged
+L255: LT00288  | Dacarbazine  | 6  | Box warning  | ^{v}Most-DILI-concern  | Unchanged
+L256: LT00289  | Dapsone  | 3  | Warnings & precautions  | ^{v}Less-DILI-concern  | Unchanged
+L257: LT00292  | Digoxin  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L258: LT00294  | Dipyridamole  | 3  | Warnings & precautions  | Ambiguous-DILI-concern  | Unchanged
+L259: LT00295  | Disulfiram  | 8  | Warnings & precautions  | ^{v}Most-DILI-concern  | Unchanged
+L260: LT00296  | Enalapril maleate  | 7  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L261: LT00298  | Flurbiprofen sodium  | 3  | Warnings & precautions  | ^{v}Less-DILI-concern  | Revised
+L262: LT00299  | Furosemide  | 2  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L263: LT00300  | Gabapentin  | 3  | Warnings & precautions  | ^{v}Less-DILI-concern  | Unchanged
+L264: LT00302  | Glyburide  | 3  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+
+
+Drug Induced Liver Injury Rank (DILIrank 2.0) Dataset | FDA (https://www.fda.gov/science-research/liver-toxicity-knowledge-base-ltkb/drug-induced-liver-injury-rank-dilirank-20-dataset)
+citeturn22view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"turn14view0","lineno":263}); Total lines: 1444
+L189: LT00166  | Pyrazinamide  | 3  | Warnings & precautions  | ^{v}Less-DILI-concern  | Unchanged
+L190: LT00167  | Finasteride  | 0  | No match  | ^{v}Less-DILI-concern  | Unchanged
+L191: LT00168  | Troglitazone  | 8  | Withdrawn  | ^{v}Most-DILI-concern  | Unchanged
+L192: LT00172  | Fluvastatin sodium  | 3  | Warnings & precautions  | ^{v}Less-DILI-concern  | Unchanged
+L193: LT00173  | Glimepiride  | 7  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L194: LT00174  | Venlafaxine hydrochloride  | 7  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L195: LT00175  | Amlodipine besylate  | 5  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L196: LT00177  | Vinblastine sulfate  | 0  | No match  | ^{v}Less-DILI-concern  | Revised
+L197: LT00178  | Ciprofloxacin hydrochloride  | 7  | Warnings & precautions  | ^{v}Most-DILI-concern  | Unchanged
+L198: LT00179  | Fluconazole  | 8  | Warnings & precautions  | ^{v}Most-DILI-concern  | Unchanged
+L199: LT00180  | Prednisone  | 3  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L200: LT00181  | Lorazepam  | 3  | Warnings & precautions  | ^{v}Less-DILI-concern  | Revised
+L201: LT00182  | Itraconazole  | 8  | Warnings & precautions  | ^{v}Most-DILI-concern  | Unchanged
+L202: LT00183  | Raloxifene hydrochloride  | 0  | No match  | ^{v}Less-DILI-concern  | Revised
+L203: LT00184  | Mifepristone  | 0  | No match  | ^{v}Less-DILI-concern  | Revised
+L204: LT00185  | Clomipramine hydrochloride  | 8  | Warnings & precautions  | ^{v}Most-DILI-concern  | Unchanged
+L205: LT00186  | Pravastatin sodium  | 3  | Warnings & precautions  | ^{v}Less-DILI-concern  | Unchanged
+L206: LT00187  | Clarithromycin  | 8  | Warnings & precautions  | ^{v}Most-DILI-concern  | Unchanged
+L207: LT00188  | Hydrocortisone acetate  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L208: LT00192  | Progesterone  | 2  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L209: LT00194  | Ergocalciferol  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L210: LT00199  | Ibuprofen  | 3  | Warnings & precautions  | ^{v}Less-DILI-concern  | Unchanged
+L211: LT00200  | Isoproterenol hydrochloride  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L212: LT00204  | Ketorolac tromethamine  | 3  | Warnings & precautions  | ^{v}Less-DILI-concern  | Unchanged
+L213: LT00205  | Promethazine hydrochloride  | 5  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L214: LT00206  | Omeprazole  | 4  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L215: LT00207  | Carvedilol  | 3  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L216: LT00209  | Cytarabine  | 3  | Box warning  | ^{v}Most-DILI-concern  | Unchanged
+L217: LT00211  | Norethindrone  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L218: LT00213  | Tromethamine  | 6  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L219: LT00216  | Pergolide mesylate  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L220: LT00217  | Nisoldipine  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L221: LT00219  | Citalopram hydrobromide  | 7  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L222: LT00220  | Megestrol acetate  | 1  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L223: LT00222  | Methyltestosterone  | 2  | Warnings & precautions  | ^{v}Less-DILI-concern  | Unchanged
+L224: LT00223  | Testosterone enanthate  | 8  | Warnings & precautions  | ^{v}Most-DILI-concern  | Unchanged
+L225: LT00225  | Praziquantel  | 3  | Warnings & precautions  | Ambiguous-DILI-concern  | Unchanged
+L226: LT00227  | Ticlopidine hydrochloride  | 4  | Warnings & precautions  | ^{v}Most-DILI-concern  | Unchanged
+L227: LT00230  | Diazepam  | 4  | Adverse reactions  | ^{v}Less-DILI-concern  | Revised
+L228: LT00233  | Clomiphene citrate  | 3  | Warnings & precautions  | ^{v}Less-DILI-concern  | Unchanged
+L229: LT00234  | Isotretinoin  | 5  | Warnings & precautions  | ^{v}Most-DILI-concern  | Unchanged
+L230: LT00235  | Oxymetholone  | 7  | Box warning  | ^{v}Most-DILI-concern  | Unchanged
+L231: LT00240  | Etodolac  | 8  | Warnings & precautions  | ^{v}Most-DILI-concern  | Unchanged
+L232: LT00243  | Glipizide  | 3  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L233: LT00246  | Pemoline  | 8  | Withdrawn  | ^{v}Most-DILI-concern  | Unchanged
+L234: LT00248  | Clotrimazole  | 3  | Warnings & precautions  | ^{v}Less-DILI-concern  | Unchanged
+L235: LT00252  | Celecoxib  | 3  | Warnings & precautions  | ^{v}Less-DILI-concern  | Unchanged
+L236: LT00256  | Amoxapine  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L237: LT00257  | Iothalamate meglumine  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L238: LT00258  | Atorvastatin calcium  | 5  | Warnings & precautions  | ^{v}Most-DILI-concern  | Unchanged
+L239: LT00259  | Olanzapine  | 3  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L240: LT00260  | Nevirapine  | 8  | Box warning  | ^{v}Most-DILI-concern  | Unchanged
+L241: LT00261  | Primidone  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L242: LT00262  | Vinorelbine tartrate  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L243: LT00263  | Anastrozole  | 3  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L244: LT00264  | Rabeprazole sodium  | 3  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L245: LT00265  | Azithromycin  | 7  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L246: LT00266  | Tolazamide  | 2  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L247: LT00267  | Quetiapine fumarate  | 3  | Warnings & precautions  | ^{v}Less-DILI-concern  | Unchanged
+L248: LT00270  | Famciclovir  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L249: LT00277  | Atenolol  | 4  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L250: LT00278  | Benzbromarone  | 8  | Withdrawn  | ^{v}Most-DILI-concern  | Unchanged
+L251: LT00279  | Bromocriptine mesylate  | 3  | Warnings & precautions  | ^{v}Less-DILI-concern  | Unchanged
+L252: LT00280  | Busulfan  | 8  | Warnings & precautions  | ^{v}Most-DILI-concern  | Unchanged
+L253: LT00286  | Chlorambucil  | 3  | Warnings & precautions  | ^{v}Less-DILI-concern  | Unchanged
+L254: LT00287  | Clozapine  | 5  | Warnings & precautions  | ^{v}Most-DILI-concern  | Unchanged
+L255: LT00288  | Dacarbazine  | 6  | Box warning  | ^{v}Most-DILI-concern  | Unchanged
+L256: LT00289  | Dapsone  | 3  | Warnings & precautions  | ^{v}Less-DILI-concern  | Unchanged
+L257: LT00292  | Digoxin  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L258: LT00294  | Dipyridamole  | 3  | Warnings & precautions  | Ambiguous-DILI-concern  | Unchanged
+L259: LT00295  | Disulfiram  | 8  | Warnings & precautions  | ^{v}Most-DILI-concern  | Unchanged
+L260: LT00296  | Enalapril maleate  | 7  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L261: LT00298  | Flurbiprofen sodium  | 3  | Warnings & precautions  | ^{v}Less-DILI-concern  | Revised
+L262: LT00299  | Furosemide  | 2  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L263: LT00300  | Gabapentin  | 3  | Warnings & precautions  | ^{v}Less-DILI-concern  | Unchanged
+L264: LT00302  | Glyburide  | 3  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L265: LT00306  | Isoniazid  | 8  | Box warning  | ^{v}Most-DILI-concern  | Unchanged
+L266: LT00307  | Lansoprazole  | 3  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L267: LT00308  | Mebendazole  | 3  | Warnings & precautions  | ^{v}Less-DILI-concern  | Unchanged
+L268: LT00309  | Metoprolol tartrate  | 5  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L269: LT00310  | Mycophenolic sodium  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L270: LT00311  | Naltrexone hydrochloride  | 3  | Warnings & precautions  | Ambiguous-DILI-concern  | Unchanged
+L271: LT00312  | Niacin  | 7  | Warnings & precautions  | ^{v}Most-DILI-concern  | Unchanged
+L272: LT00313  | Nifedipine  | 3  | Warnings & precautions  | ^{v}Less-DILI-concern  | Unchanged
+L273: LT00314  | Nimesulide  | 8  | Withdrawn  | ^{v}Most-DILI-concern  | Unchanged
+L274: LT00315  | Nizatidine  | 5  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L275: LT00322  | Methenamine hippurate  | 3  | Warnings & precautions  | Ambiguous-DILI-concern  | Unchanged
+L276: LT00327  | Dextrose  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L277: LT00328  | Cholestyramine  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L278: LT00330  | Sodium lactate  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L279: LT00332  | Verapamil hydrochloride  | 3  | Warnings & precautions  | ^{v}Less-DILI-concern  | Unchanged
+L280: LT00335  | Doxorubicin hydrochloride  | 3  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L281: LT00338  | Tretinoin  | 3  | Warnings & precautions  | ^{v}Less-DILI-concern  | Revised
+L282: LT00340  | Isosorbide mononitrate  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L283: LT00341  | Clorazepate dipotassium  | 3  | Warnings & precautions  | Ambiguous-DILI-concern  | Unchanged
+L284: LT00349  | Protirelin  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L285: LT00350  | Sincalide  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L286: LT00355  | Secretin synthetic human  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L287: LT00358  | Sucralfate  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L288: LT00361  | Cupric chloride  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L289: LT00375  | Trientine hydrochloride  | 1  | No match  | ^{v}No-DILI-concern  | Unchanged
+L290: LT00379  | Chlorpropamide  | 2  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L291: LT00380  | Cyclosporine  | 7  | Warnings & precautions  | ^{v}Most-DILI-concern  | Unchanged
+L292: LT00381  | Enalaprilat  | 7  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L293: LT00385  | Decitabine  | 4  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L294: LT00386  | Deferoxamine mesylate  | 0  | No match  | ^{v}Less-DILI-concern  | Unchanged
+L295: LT00393  | Doxycycline  | 3  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L296: LT00394  | Exemestane  | 4  | Warnings & precautions  | ^{v}Most-DILI-concern  | Unchanged
+L297: LT00397  | Felodipine  | 3  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L298: LT00399  | Fludrocortisone acetate  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L299: LT00400  | Fluphenazine hydrochloride  | 3  | Warnings & precautions  | Ambiguous-DILI-concern  | Unchanged
+L300: LT00401  | Fulvestrant  | 7  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L301: LT00402  | Gefitinib  | 4  | Warnings & precautions  | ^{v}Most-DILI-concern  | Unchanged
+L302: LT00405  | Haloperidol lactate  | 5  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L303: LT00414  | Mesalamine  | 7  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L304: LT00416  | Minocycline hydrochloride  | 8  | Warnings & precautions  | ^{v}Most-DILI-concern  | Unchanged
+L305: LT00419  | Ioversol  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L306: LT00426  | Histrelin acetate  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L307: LT00429  | Oxaprozin  | 3  | Warnings & precautions  | ^{v}Less-DILI-concern  | Unchanged
+L308: LT00430  | Paclitaxel  | 4  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L309: LT00433  | Phentolamine mesylate  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L310: LT00435  | Prazosin hydrochloride  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L311: LT00437  | Prochlorperazine maleate  | 2  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L312: LT00438  | Corticorelin ovine triflutate  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L313: LT00439  | Sodium thiosulfate  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L314: LT00443  | Sirolimus  | 8  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L315: LT00448  | Tacrolimus  | 5  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L316: LT00450  | Thalidomide  | 4  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L317: LT00451  | Thioridazine hydrochloride  | 5  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L318: LT00452  | Thioguanine  | 2  | Warnings & precautions  | ^{v}Less-DILI-concern  | Unchanged
+L319: LT00453  | Tolbutamide  | 2  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L320: LT00455  | Topiramate  | 3  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L321: LT00457  | Trifluoperazine hydrochloride  | 2  | Warnings & precautions  | ^{v}Less-DILI-concern  | Revised
+L322: LT00460  | Triptorelin pamoate  | 3  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L323: LT00461  | Alatrofloxacin mesylate  | 8  | Withdrawn  | ^{v}Most-DILI-concern  | Unchanged
+L324: LT00462  | Vorinostat  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L325: LT00463  | Sacrosidase  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L326: LT00464  | Doxercalciferol  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L327: LT00465  | Nesiritide  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L328: LT00475  | Ganirelix acetate  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L329: LT00477  | Gemtuzumab ozogamicin  | 8  | Box warning  | ^{v}Most-DILI-concern  | Unchanged
+L330: LT00478  | Methylprednisolone  | 3  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L331: LT00480  | Sodium oxybate  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L332: LT00482  | L-glutamine  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L333: LT00484  | Cetrorelix acetate  | 3  | Warnings & precautions  | Ambiguous-DILI-concern  | Unchanged
+L334: LT00485  | Tegaserod maleate  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L335: LT00486  | Polidocanol  | 0  | No match  | ^{v}No-DILI-concern  | New
+L336: LT00488  | Penicillamine  | 2  | Warnings & precautions  | ^{v}Less-DILI-concern  | Unchanged
+L337: LT00492  | Pramlintide acetate  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L338: LT00493  | Lanthanum carbonate  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L339: LT00494  | Fomepizole  | 3  | Warnings & precautions  | Ambiguous-DILI-concern  | Unchanged
+L340: LT00498  | Acetazolamide  | 8  | Warnings & precautions  | ^{v}Most-DILI-concern  | Unchanged
+L341: LT00499  | Albendazole  | 7  | Warnings & precautions  | ^{v}Most-DILI-concern  | Unchanged
+L342: LT00501  | Alprazolam  | 7  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L343: LT00502  | Altretamine  | 2  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L344: LT00503  | Amantadine hydrochloride  | 3  | Warnings & precautions  | Ambiguous-DILI-concern  | Unchanged
+L345: LT00505  | Aminosalicylic acid   | 5  | Warnings & precautions  | ^{v}MOST-DILI-concern  | Unchanged
+L346: LT00507  | Amoxicillin  | 5  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L347: LT00511  | Atropine  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L348: LT00512  | Balsalazide disodium  | 8  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L349: LT00513  | Benoxaprofen  | 8  | Withdrawn  | ^{v}Most-DILI-concern  | Unchanged
+L350: LT00515  | Emtricitabine  | 2  | Warnings & precautions  | Ambiguous-DILI-concern  | Unchanged
+L351: LT00516  | Trospium chloride  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L352: LT00519  | Bromfenac sodium  | 8  | Withdrawn  | ^{v}Most-DILI-concern  | Unchanged
+L353: LT00528  | Gadofosveset trisodium  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L354: LT00529  | Cholic acid  | 3  | Warnings & precautions  | Ambiguous-DILI-concern  | New
+L355: LT00532  | Clonazepam  | 3  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L356: LT00537  | Exenatide synthetic  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L357: LT00538  | Entecavir  | 7  | Warnings & precautions  | Ambiguous-DILI-concern  | Unchanged
+L358: LT00539  | Danazol  | 8  | Box warning  | ^{v}Most-DILI-concern  | Unchanged
+L359: LT00540  | Daunorubicin hydrochloride  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L360: LT00541  | Deferiprone  | 3  | Warnings & precautions  | Ambiguous-DILI-concern  | New
+L361: LT00545  | Dimenhydrinate  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L362: LT00547  | Doxapram hydrochloride  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L363: LT00554  | Febuxostat  | 8  | Warnings & precautions  | ^{v}Most-DILI-concern  | Unchanged
+L364: LT00557  | Granisetron hydrochloride  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L365: LT00558  | Griseofulvin  | 8  | Warnings & precautions  | ^{v}Most-DILI-concern  | Unchanged
+L366: LT00559  | Hydralazine hydrochloride  | 3  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L367: LT00560  | Ibufenac  | 8  | Withdrawn  | ^{v}Most-DILI-concern  | Unchanged
+L368: LT00562  | Ifosfamide  | 4  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L369: LT00563  | Deferasirox  | 7  | Box warning  | ^{v}Most-DILI-concern  | Unchanged
+L370: LT00564  | Rufinamide  | 3  | Warnings & precautions  | Ambiguous-DILI-concern  | Unchanged
+L371: LT00565  | Sunitinib malate  | 8  | Box warning  | ^{v}Most-DILI-concern  | Unchanged
+L372: LT00568  | Ivermectin  | 3  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L373: LT00569  | Lamivudine  | 3  | Warnings & precautions  | ^{v}Less-DILI-concern  | Unchanged
+L374: LT00570  | Methylnaltrexone bromide  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L375: LT00571  | Lisdexamfetamine dimesylate  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L376: LT00572  | Letrozole  | 2  | Warnings & precautions  | ^{v}Less-DILI-concern  | Unchanged
+L377: LT00573  | Desvenlafaxine succinate  | 3  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L378: LT00574  | Lomefloxacin hydrochloride  | 4  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L379: LT00575  | Lomustine  | 3  | Warnings & precautions  | ^{v}Less-DILI-concern  | Unchanged
+L380: LT00576  | Lovastatin  | 3  | Warnings & precautions  | ^{v}Less-DILI-concern  | Unchanged
+L381: LT00577  | Telbivudine  | 2  | Warnings & precautions  | Ambiguous-DILI-concern  | Unchanged
+L382: LT00580  | Methimazole  | 8  | Warnings & precautions  | ^{v}Most-DILI-concern  | Unchanged
+L383: LT00581  | Methocarbamol  | 5  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L384: LT00584  | Metronidazole  | 3  | No match  | ^{v}Less-DILI-concern  | Unchanged
+L385: LT00587  | Minoxidil  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L386: LT00588  | Mitomycin  | 0  | No match  | ^{v}Less-DILI-concern  | Unchanged
+L387: LT00589  | Modafinil  | 3  | Warnings & precautions  | ^{v}Less-DILI-concern  | Unchanged
+L388: LT00590  | Fesoterodine fumarate  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L389: LT00592  | Naloxone hydrochloride  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L390: LT00593  | Naproxen  | 3  | Warnings & precautions  | ^{v}Less-DILI-concern  | Unchanged
+L391: LT00594  | Nateglinide  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L392: LT00595  | Neomycin sulfate  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L393: LT00600  | Levocetirizine dihydrochloride  | 4  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L394: LT00602  | Nystatin  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L395: LT00605  | Oxytetracycline  | 2  | Warnings & precautions  | Ambiguous-DILI-concern  | Unchanged
+L396: LT00606  | Pantoprazole sodium  | 3  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L397: LT00607  | Nilotinib hydrochloride  | 4  | Warnings & precautions  | ^{v}Most-DILI-concern  | Revised
+L398: LT00610  | Pralidoxime chloride  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L399: LT00612  | Prednisolone  | 3  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L400: LT00613  | Primaquine phosphate  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L401: LT00614  | Procarbazine hydrochloride  | 3  | Warnings & precautions  | ^{v}Less-DILI-concern  | Unchanged
+L402: LT00617  | Lanreotide acetate  | 2  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L403: LT00618  | Ambrisentan  | 7  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L404: LT00619  | Roflumilast  | 0  | No match  | ^{v}No-DILI-concern  | New
+L405: LT00623  | Doripenem  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L406: LT00624  | Secobarbital sodium  | 3  | Warnings & precautions  | Ambiguous-DILI-concern  | Unchanged
+
+
+Drug Induced Liver Injury Rank (DILIrank 2.0) Dataset | FDA (https://www.fda.gov/science-research/liver-toxicity-knowledge-base-ltkb/drug-induced-liver-injury-rank-dilirank-20-dataset)
+citeturn23view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"turn14view0","lineno":443}); Total lines: 1444
+L375: LT00571  | Lisdexamfetamine dimesylate  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L376: LT00572  | Letrozole  | 2  | Warnings & precautions  | ^{v}Less-DILI-concern  | Unchanged
+L377: LT00573  | Desvenlafaxine succinate  | 3  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L378: LT00574  | Lomefloxacin hydrochloride  | 4  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L379: LT00575  | Lomustine  | 3  | Warnings & precautions  | ^{v}Less-DILI-concern  | Unchanged
+L380: LT00576  | Lovastatin  | 3  | Warnings & precautions  | ^{v}Less-DILI-concern  | Unchanged
+L381: LT00577  | Telbivudine  | 2  | Warnings & precautions  | Ambiguous-DILI-concern  | Unchanged
+L382: LT00580  | Methimazole  | 8  | Warnings & precautions  | ^{v}Most-DILI-concern  | Unchanged
+L383: LT00581  | Methocarbamol  | 5  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L384: LT00584  | Metronidazole  | 3  | No match  | ^{v}Less-DILI-concern  | Unchanged
+L385: LT00587  | Minoxidil  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L386: LT00588  | Mitomycin  | 0  | No match  | ^{v}Less-DILI-concern  | Unchanged
+L387: LT00589  | Modafinil  | 3  | Warnings & precautions  | ^{v}Less-DILI-concern  | Unchanged
+L388: LT00590  | Fesoterodine fumarate  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L389: LT00592  | Naloxone hydrochloride  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L390: LT00593  | Naproxen  | 3  | Warnings & precautions  | ^{v}Less-DILI-concern  | Unchanged
+L391: LT00594  | Nateglinide  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L392: LT00595  | Neomycin sulfate  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L393: LT00600  | Levocetirizine dihydrochloride  | 4  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L394: LT00602  | Nystatin  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L395: LT00605  | Oxytetracycline  | 2  | Warnings & precautions  | Ambiguous-DILI-concern  | Unchanged
+L396: LT00606  | Pantoprazole sodium  | 3  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L397: LT00607  | Nilotinib hydrochloride  | 4  | Warnings & precautions  | ^{v}Most-DILI-concern  | Revised
+L398: LT00610  | Pralidoxime chloride  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L399: LT00612  | Prednisolone  | 3  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L400: LT00613  | Primaquine phosphate  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L401: LT00614  | Procarbazine hydrochloride  | 3  | Warnings & precautions  | ^{v}Less-DILI-concern  | Unchanged
+L402: LT00617  | Lanreotide acetate  | 2  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L403: LT00618  | Ambrisentan  | 7  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L404: LT00619  | Roflumilast  | 0  | No match  | ^{v}No-DILI-concern  | New
+L405: LT00623  | Doripenem  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L406: LT00624  | Secobarbital sodium  | 3  | Warnings & precautions  | Ambiguous-DILI-concern  | Unchanged
+L407: LT00625  | Sertraline hydrochloride  | 3  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L408: LT00627  | Sotalol hydrochloride  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L409: LT00628  | Streptozocin  | 3  | Warnings & precautions  | Ambiguous-DILI-concern  | Unchanged
+L410: LT00632  | Sulfathiazole  | 8  | Withdrawn  | ^{v}Most-DILI-concern  | Unchanged
+L411: LT00634  | Terbinafine hydrochloride  | 8  | Warnings & precautions  | ^{v}Most-DILI-concern  | Unchanged
+L412: LT00635  | Thiabendazole  | 7  | Warnings & precautions  | ^{v}Most-DILI-concern  | Unchanged
+L413: LT00636  | Ticrynafen  | 8  | Withdrawn  | ^{v}Most-DILI-concern  | Unchanged
+L414: LT00637  | Tinidazole  | 3  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L415: LT00639  | Torsemide  | 2  | Warnings & precautions  | Ambiguous-DILI-concern  | Unchanged
+L416: LT00640  | Maraviroc  | 3  | Box warning  | ^{v}Most-DILI-concern  | Unchanged
+L417: LT00642  | Raltegravir potassium  | 7  | Warnings & precautions  | ^{v}Most-DILI-concern  | Unchanged
+L418: LT00644  | Clevidipine  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L419: LT00645  | Trovafloxacin mesylate  | 8  | Withdrawn  | ^{v}Most-DILI-concern  | Unchanged
+L420: LT00646  | Regadenoson  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L421: LT00647  | Warfarin sodium  | 5  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L422: LT00648  | Zaleplon  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L423: LT00649  | Zileuton  | 5  | Warnings & precautions  | ^{v}Most-DILI-concern  | Unchanged
+L424: LT00650  | Ferumoxytol  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L425: LT00653  | Etravirine  | 8  | Warnings & precautions  | ^{v}Most-DILI-concern  | Unchanged
+L426: LT00654  | Iloperidone  | 2  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L427: LT00655  | Degarelix acetate  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L428: LT00656  | Silodosin  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L429: LT00658  | Fospropofol disodium  | 0  | No match  | ^{v}Less-DILI-concern  | Unchanged
+L430: LT00659  | Bendamustine hydrochloride  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L431: LT00660  | Lacosamide  | 3  | Warnings & precautions  | Ambiguous-DILI-concern  | Unchanged
+L432: LT00661  | Tolvaptan  | 8  | Warnings & precautions  | ^{v}Most-DILI-concern  | Unchanged
+L433: LT00663  | Eltrombopag olamine  | 4  | Box warning  | ^{v}Most-DILI-concern  | Unchanged
+L434: LT00664  | Tapentadol hydrochloride  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L435: LT00665  | Prasugrel hydrochloride  | 0  | No match  | ^{v}Less-DILI-concern  | Unchanged
+L436: LT00667  | Saxagliptin hydrochloride  | 0  | No match  | ^{v}Less-DILI-concern  | Revised
+L437: LT00668  | Pitavastatin calcium  | 3  | Warnings & precautions  | Ambiguous-DILI-concern  | Unchanged
+L438: LT00669  | Romidepsin  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L439: LT00670  | Fenofibric acid  | 2  | Warnings & precautions  | ^{v}Less-DILI-concern  | Revised
+L440: LT00671  | Dronedarone hydrochloride  | 7  | Warnings & precautions  | ^{v}Most-DILI-concern  | Unchanged
+L441: LT00672  | Pazopanib hydrochloride  | 8  | Box warning  | ^{v}Most-DILI-concern  | Unchanged
+L442: LT00673  | Pralatrexate  | 3  | Warnings & precautions  | Ambiguous-DILI-concern  | Unchanged
+L443: LT00674  | Pancrelipase  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L444: LT00675  | Carglumic acid  | 0  | No match  | ^{v}No-DILI-concern  | New
+L445: LT00677  | Estropipate  | 2  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L446: LT00682  | Dexchlorpheniramine maleate  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L447: LT00683  | Ecallantide  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L448: LT00684  | Divalproex sodium  | 8  | Box warning  | ^{v}Most-DILI-concern  | Unchanged
+L449: LT00686  | Lumiracoxib  | 8  | Withdrawn  | ^{v}Most-DILI-concern  | Unchanged
+L450: LT00687  | Tasosartan  | 8  | Discontinued  | ^{v}Most-DILI-concern  | Unchanged
+L451: LT00690  | Oxyphenisatin  | 8  | Withdrawn  | ^{v}Most-DILI-concern  | Unchanged
+L452: LT00691  | Tilbroquinol  | 8  | Withdrawn  | ^{v}Most-DILI-concern  | Unchanged
+L453: LT00692  | Alclofenac  | 8  | Withdrawn  | ^{v}Most-DILI-concern  | Unchanged
+L454: LT00693  | Aplaviroc  | 8  | Discontinued  | ^{v}Most-DILI-concern  | Unchanged
+L455: LT00694  | Clomacran  | 8  | Withdrawn  | ^{v}Most-DILI-concern  | Unchanged
+L456: LT00695  | Dermatan  | 8  | Discontinued  | ^{v}Most-DILI-concern  | Unchanged
+L457: LT00696  | Isaxonine  | 8  | Withdrawn  | ^{v}Most-DILI-concern  | Unchanged
+L458: LT00697  | Pipamazine  | 8  | Withdrawn  | ^{v}Most-DILI-concern  | Unchanged
+L459: LT00698  | Pralnacasan  | 8  | Discontinued  | ^{v}Most-DILI-concern  | Unchanged
+L460: LT00699  | Sulfacarbamide  | 8  | Withdrawn  | ^{v}Most-DILI-concern  | Unchanged
+L461: LT00700  | Triacetyldiphenolisatin  | 8  | Withdrawn  | ^{v}Most-DILI-concern  | Unchanged
+L462: LT00701  | Fiduxosin  | 8  | Discontinued  | ^{v}Most-DILI-concern  | Unchanged
+L463: LT00702  | Pafuramidine  | 8  | Discontinued  | ^{v}Most-DILI-concern  | Unchanged
+L464: LT00703  | Phenoxypropazine  | 8  | Withdrawn  | ^{v}Most-DILI-concern  | Unchanged
+L465: LT00706  | Histamine phosphate  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L466: LT00707  | Butabarbital sodium  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L467: LT00708  | Guanidine hydrochloride  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L468: LT00711  | Aminophylline  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L469: LT00713  | Meperidine hydrochloride  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L470: LT00716  | Methamphetamine hydrochloride  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L471: LT00723  | Methadone hydrochloride  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L472: LT00725  | Hyaluronidase  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L473: LT00727  | Doxylamine succinate  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L474: LT00728  | Protamine sulfate  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L475: LT00730  | Bethanechol chloride  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L476: LT00734  | Cortisone acetate  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L477: LT00737  | Dicyclomine hydrochloride  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L478: LT00738  | Norepinephrine bitartrate  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L479: LT00740  | Dyphylline  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L480: LT00742  | Epinephrine  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L481: LT00749  | Succinylcholine chloride  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L482: LT00751  | Thyrotropin alfa  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L483: LT00752  | Levorphanol tartrate  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L484: LT00753  | Propantheline bromide  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L485: LT00759  | Carbinoxamine maleate  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L486: LT00760  | Edetate calcium disodium  | 3  | Warnings & precautions  | Ambiguous-DILI-concern  | Unchanged
+L487: LT00774  | Diatrizoate sodium  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L488: LT00780  | Phytonadione  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L489: LT00781  | Mecamylamine hydrochloride  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L490: LT00783  | Liothyronine sodium  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L491: LT00787  | Methsuximide  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L492: LT00790  | Mepenzolate bromide  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L493: LT00792  | Meclizine hydrochloride  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L494: LT00795  | Ethotoin  | 3  | Warnings & precautions  | Ambiguous-DILI-concern  | Unchanged
+L495: LT00798  | Triprolidine hydrochloride  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L496: LT00800  | Benzonatate  | 0  | No match  | ^{v}Less-DILI-concern  | Unchanged
+L497: LT00801  | Sodium polystyrene sulfonate  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L498: LT00802  | Dichlorphenamide  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L499: LT00803  | Methohexital sodium  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L500: LT00805  | Phentermine resin complex  | 0  | No match  | ^{v}Less-DILI-concern  | Unchanged
+L501: LT00806  | Diethylpropion hydrochloride  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L502: LT00808  | Oxymorphone hydrochloride  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L503: LT00810  | Dexbrompheniramine maleate  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L504: LT00814  | Hydroflumethiazide  | 2  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L505: LT00817  | Biperiden hydrochloride  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L506: LT00818  | Isosorbide dinitrate  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L507: LT00822  | Mepivacaine hydrochloride  | 0  | No match  | ^{v}Less-DILI-concern  | Revised
+L508: LT00825  | Bendroflumethiazide  | 5  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L509: LT00826  | Phendimetrazine tartrate  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L510: LT00827  | Oxytocin  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L511: LT00829  | Guanethidine monosulfate  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L512: LT00831  | Ethosuximide  | 3  | Warnings & precautions  | Ambiguous-DILI-concern  | Unchanged
+L513: LT00832  | Benzphetamine hydrochloride  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L514: LT00833  | Methyclothiazide  | 2  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L515: LT00836  | Glycopyrrolate  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L516: LT00838  | Metyrapone  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L517: LT00841  | Metaxalone  | 5  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L518: LT00845  | Oxandrolone  | 8  | Box warning  | ^{v}Most-DILI-concern  | Unchanged
+L519: LT00847  | Oxazepam  | 5  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L520: LT00848  | Protriptyline hydrochloride  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L521: LT00855  | Cosyntropin  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L522: LT00857  | Flavoxate hydrochloride  | 0  | No match  | ^{v}Less-DILI-concern  | Revised
+L523: LT00859  | Ketamine hydrochloride  | 0  | No match  | ^{v}Less-DILI-concern  | Unchanged
+L524: LT00865  | Diazoxide  | 3  | Warnings & precautions  | Ambiguous-DILI-concern  | Unchanged
+L525: LT00867  | Pancuronium bromide  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L526: LT00869  | Pentagastrin  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L527: LT00870  | Dextroamphetamine sulfate  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L528: LT00877  | Terbutaline sulfate  | 3  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L529: LT00878  | Calcitonin salmon  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L530: LT00879  | Pentetate calcium trisodium yb-169  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L531: LT00880  | Sodium nitroprusside  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L532: LT00881  | Colestipol hydrochloride  | 3  | Adverse reactions  | ^{v}Less-DILI-concern  | Revised
+L533: LT00886  | Lactulose  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L534: LT00888  | Somatropin  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L535: LT00894  | Fluorescein sodium  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L536: LT00895  | Metyrosine  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L537: LT00896  | Desmopressin acetate  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L538: LT00898  | Carboprost tromethamine  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L539: LT00899  | Calcitriol  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L540: LT00905  | Morphine sulfate  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L541: LT00909  | Dronabinol  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L542: LT00910  | Nabilone  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L543: LT00913  | Acetohydroxamic acid  | 3  | Warnings & precautions  | Ambiguous-DILI-concern  | Unchanged
+L544: LT00916  | Vecuronium bromide  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L545: LT00917  | Atracurium  | 0  | No match  | ^{v}No-DILI-Concern  | Unchanged
+L546: LT00919  | Hydromorphone hydrochloride  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L547: LT00920  | Sufentanil citrate  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L548: LT00922  | Misoprostol  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L549: LT00923  | Tranexamic acid  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L550: LT00925  | Alfentanil hydrochloride  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L551: LT00926  | Ethanolamine oleate  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L552: LT00928  | Rubidium chloride rb-82  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L553: LT00929  | Urofollitropin  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L554: LT00931  | Milrinone lactate  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L555: LT00932  | Teriparatide acetate  | 0  | No match  | ^{v}Less-DILI-concern  | Revised
+L556: LT00933  | L-Cysteine  | 3  | Warnings & precautions  | Ambiguous-DILI-concern  | Unchanged
+L557: LT00935  | Gadopentetate dimeglumine  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L558: LT00937  | Rimantadine hydrochloride  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L559: LT00939  | Goserelin acetate  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L560: LT00941  | Pegademase bovine  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L561: LT00944  | Fenoldopam mesylate  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L562: LT00946  | Metoprolol succinate  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L563: LT00947  | Calcium acetate  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L564: LT00950  | Mivacurium chloride  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L565: LT00951  | Gadodiamide  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L566: LT00952  | Gadoteridol  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L567: LT00954  | Enoxaparin sodium  | 3  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L568: LT00955  | Perindopril erbumine  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L569: LT00956  | Pentosan polysulfate sodium  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L570: LT00957  | Rocuronium bromide  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L571: LT00961  | Dalteparin sodium  | 3  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L572: LT00962  | Aprotinin  | 7  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L573: LT00964  | Anagrelide hydrochloride  | 3  | Warnings & precautions  | Ambiguous-DILI-concern  | Unchanged
+L574: LT00966  | Ferumoxsil  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L575: LT00967  | Ferumoxides  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L576: LT00969  | Vigabatrin  | 2  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L577: LT00971  | Epoprostenol sodium  | 7  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L578: LT00972  | Porfimer sodium  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L579: LT00973  | Tinzaparin sodium  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L580: LT00974  | Ibutilide fumarate  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L581: LT00978  | Cisatracurium besylate  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L582: LT00979  | Oxycodone hydrochloride  | 0  | No match  | ^{v}Less-DILI-concern  | Revised
+L583: LT00980  | Alendronate sodium  | 0  | No match  | ^{v}Less-DILI-concern  | Unchanged
+L584: LT00982  | Tamsulosin hydrochloride  | 0  | No match  | ^{v}Less-DILI-concern  | Unchanged
+L585: LT00985  | Glatiramer acetate  | 3  | Adverse reactions  | ^{v}Less-DILI-concern  | Revised
+L586: LT00986  | Dolasetron mesylate  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L587: LT00987  | Remifentanil hydrochloride  | 3  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L588: LT00988  | Sibutramine hydrochloride  | 4  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L589: LT00989  | Tiagabine hydrochloride  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L590: LT00990  | Ropinirole hydrochloride  | 4  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L591: LT00991  | Pramipexole dihydrochloride  | 2  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L592: LT00992  | Miglitol  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L593: LT00995  | Polyethylene glycol 3350  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+
+
+Drug Induced Liver Injury Rank (DILIrank 2.0) Dataset | FDA (https://www.fda.gov/science-research/liver-toxicity-knowledge-base-ltkb/drug-induced-liver-injury-rank-dilirank-20-dataset)
+citeturn24view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"turn14view0","lineno":623}); Total lines: 1444
+L551: LT00926  | Ethanolamine oleate  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L552: LT00928  | Rubidium chloride rb-82  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L553: LT00929  | Urofollitropin  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L554: LT00931  | Milrinone lactate  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L555: LT00932  | Teriparatide acetate  | 0  | No match  | ^{v}Less-DILI-concern  | Revised
+L556: LT00933  | L-Cysteine  | 3  | Warnings & precautions  | Ambiguous-DILI-concern  | Unchanged
+L557: LT00935  | Gadopentetate dimeglumine  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L558: LT00937  | Rimantadine hydrochloride  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L559: LT00939  | Goserelin acetate  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L560: LT00941  | Pegademase bovine  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L561: LT00944  | Fenoldopam mesylate  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L562: LT00946  | Metoprolol succinate  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L563: LT00947  | Calcium acetate  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L564: LT00950  | Mivacurium chloride  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L565: LT00951  | Gadodiamide  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L566: LT00952  | Gadoteridol  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L567: LT00954  | Enoxaparin sodium  | 3  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L568: LT00955  | Perindopril erbumine  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L569: LT00956  | Pentosan polysulfate sodium  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L570: LT00957  | Rocuronium bromide  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L571: LT00961  | Dalteparin sodium  | 3  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L572: LT00962  | Aprotinin  | 7  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L573: LT00964  | Anagrelide hydrochloride  | 3  | Warnings & precautions  | Ambiguous-DILI-concern  | Unchanged
+L574: LT00966  | Ferumoxsil  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L575: LT00967  | Ferumoxides  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L576: LT00969  | Vigabatrin  | 2  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L577: LT00971  | Epoprostenol sodium  | 7  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L578: LT00972  | Porfimer sodium  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L579: LT00973  | Tinzaparin sodium  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L580: LT00974  | Ibutilide fumarate  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L581: LT00978  | Cisatracurium besylate  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L582: LT00979  | Oxycodone hydrochloride  | 0  | No match  | ^{v}Less-DILI-concern  | Revised
+L583: LT00980  | Alendronate sodium  | 0  | No match  | ^{v}Less-DILI-concern  | Unchanged
+L584: LT00982  | Tamsulosin hydrochloride  | 0  | No match  | ^{v}Less-DILI-concern  | Unchanged
+L585: LT00985  | Glatiramer acetate  | 3  | Adverse reactions  | ^{v}Less-DILI-concern  | Revised
+L586: LT00986  | Dolasetron mesylate  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L587: LT00987  | Remifentanil hydrochloride  | 3  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L588: LT00988  | Sibutramine hydrochloride  | 4  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L589: LT00989  | Tiagabine hydrochloride  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L590: LT00990  | Ropinirole hydrochloride  | 4  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L591: LT00991  | Pramipexole dihydrochloride  | 2  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L592: LT00992  | Miglitol  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L593: LT00995  | Polyethylene glycol 3350  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L594: LT00996  | Delavirdine mesylate  | 5  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L595: LT00998  | Tiludronate disodium  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L596: LT00999  | Eptifibatide  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L597: LT01001  | Eprosartan mesylate  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L598: LT01002  | Repaglinide  | 5  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L599: LT01005  | Irbesartan  | 5  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L600: LT01007  | Naratriptan hydrochloride  | 4  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L601: LT01010  | Zolmitriptan  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L602: LT01011  | Tolterodine tartrate  | 0  | No match  | ^{v}Less-DILI-concern  | Revised
+L603: LT01012  | Nelfinavir mesylate  | 3  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L604: LT01013  | Lepirudin  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L605: LT01015  | Paricalcitol  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L606: LT01016  | Rivastigmine tartrate  | 3  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L607: LT01017  | Ziprasidone hydrochloride  | 3  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L608: LT01020  | Risedronate sodium  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L609: LT01022  | Candesartan cilexetil  | 3  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L610: LT01023  | Clopidogrel bisulfate  | 7  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L611: LT01025  | Cilostazol  | 5  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L612: LT01026  | Rizatriptan benzoate  | 0  | No match  | ^{v}Less-DILI-concern  | Revised
+L613: LT01027  | Bivalirudin  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L614: LT01028  | Azacitidine  | 8  | Warnings & precautions  | Ambiguous-DILI-concern  | Unchanged
+L615: LT01029  | Fluorouracil  | 0  | No match  | ^{v}Less-DILI-concern  | Unchanged
+L616: LT01030  | Argatroban  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L617: LT01033  | Sildenafil citrate  | 3  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L618: LT01034  | Acarbose  | 8  | Warnings & precautions  | ^{v}Most-DILI-concern  | Unchanged
+L619: LT01035  | Acebutolol hydrochloride  | 3  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L620: LT01037  | Tirofiban hydrochloride  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L621: LT01039  | Sevelamer hydrochloride  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L622: LT01040  | Dofetilide  | 0  | No match  | ^{v}Less-DILI-concern  | Revised
+L623: LT01041  | Acetylcysteine  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L624: LT01042  | Acitretin  | 5  | Box warning  | ^{v}Most-DILI-concern  | Unchanged
+L625: LT01044  | Gadoversetamide  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L626: LT01047  | Adenosine  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L627: LT01048  | Cevimeline hydrochloride  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L628: LT01051  | Albuterol  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L629: LT01053  | Almotriptan malate  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L630: LT01054  | Frovatriptan succinate  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L631: LT01055  | Amprenavir  | 3  | Warnings & precautions  | Ambiguous-DILI-concern  | Unchanged
+L632: LT01056  | Oxcarbazepine  | 3  | Warnings & precautions  | ^{v}Less-DILI-concern  | Unchanged
+L633: LT01057  | Rifapentine  | 4  | Warnings & precautions  | Ambiguous-DILI-concern  | Unchanged
+L634: LT01059  | Levetiracetam  | 8  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L635: LT01060  | Alpidem  | 8  | Withdrawn  | ^{v}Most-DILI-concern  | Unchanged
+L636: LT01063  | Dexmedetomidine hydrochloride  | 4  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L637: LT01064  | Bexarotene  | 8  | Warnings & precautions  | ^{v}Most-DILI-concern  | Unchanged
+L638: LT01065  | Perflutren  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L639: LT01067  | Amifostine  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L640: LT01068  | Amikacin sulfate  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L641: LT01069  | Pegvisomant  | 3  | Warnings & precautions  | Ambiguous-DILI-concern  | Unchanged
+L642: LT01070  | Alosetron hydrochloride  | 4  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L643: LT01071  | Aminocaproic acid  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L644: LT01072  | Levothyroxine sodium  | 3  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L645: LT01075  | Verteporfin  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L646: LT01076  | Inamrinone lactate  | 5  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L647: LT01077  | Linezolid  | 3  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L648: LT01080  | Colesevelam hydrochloride  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L649: LT01082  | Choriogonadotropin alfa  | 3  | Warnings & precautions  | Ambiguous-DILI-concern  | Unchanged
+L650: LT01084  | Gemifloxacin mesylate  | 3  | Warnings & precautions  | ^{v}Less-DILI-concern  | Unchanged
+L651: LT01085  | Desloratadine  | 3  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L652: LT01086  | Galantamine hydrobromide  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L653: LT01087  | Cefditoren pivoxil  | 2  | Adverse reactions  | ^{v}Less-DILI-concern  | Revised
+L654: LT01088  | Zoledronic acid  | 0  | No match  | ^{v}Less-DILI-concern  | Unchanged
+L655: LT01089  | Caspofungin acetate  | 7  | Warnings & precautions  | Ambiguous-DILI-concern  | Unchanged
+L656: LT01092  | Nitisinone  | 7  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L657: LT01093  | Arsenic trioxide  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L658: LT01096  | Atovaquone  | 8  | Warnings & precautions  | Ambiguous-DILI-concern  | Unchanged
+L659: LT01097  | Voriconazole  | 8  | Warnings & precautions  | ^{v}Most-DILI-concern  | Unchanged
+L660: LT01100  | Guaifenesin  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L661: LT01102  | Olmesartan medoxomil  | 4  | Adverse reactions  | ^{v}Less-DILI-concern  | Revised
+L662: LT01107  | Alfuzosin hydrochloride  | 5  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L663: LT01109  | Valganciclovir hydrochloride  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L664: LT01110  | Aztreonam  | 5  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L665: LT01112  | Dutasteride  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L666: LT01113  | Baclofen  | 3  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L667: LT01116  | Benazepril hydrochloride  | 4  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L668: LT01117  | Bendazac  | 8  | Withdrawn  | ^{v}Most-DILI-concern  | Unchanged
+L669: LT01120  | Benzarone  | 8  | Withdrawn  | ^{v}Most-DILI-concern  | Unchanged
+L670: LT01121  | Benziodarone  | 8  | Withdrawn  | ^{v}Most-DILI-concern  | Unchanged
+L671: LT01122  | Ertapenem sodium  | 3  | Warnings & precautions  | Ambiguous-DILI-concern  | Unchanged
+L672: LT01123  | Benztropine mesylate  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L673: LT01125  | Fondaparinux sodium  | 3  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L674: LT01126  | Miglustat  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L675: LT01127  | Gadobenate dimeglumine  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L676: LT01128  | Rifaximin  | 7  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L677: LT01129  | Tadalafil  | 3  | Adverse reactions  | ^{v}Less-DILI-concern  | Revised
+L678: LT01130  | Palonosetron hydrochloride  | 4  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L679: LT01132  | Betaxolol hydrochloride  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L680: LT01135  | Vardenafil hydrochloride  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L681: LT01136  | Bisoprolol fumarate  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L682: LT01138  | Bleomycin sulfate  | 3  | Warnings & precautions  | Ambiguous-DILI-concern  | Unchanged
+L683: LT01139  | Atomoxetine hydrochloride  | 8  | Warnings & precautions  | ^{v}Most-DILI-concern  | Unchanged
+L684: LT01140  | Bosentan  | 7  | Box warning  | ^{v}Most-DILI-concern  | Unchanged
+L685: LT01141  | Acamprosate calcium  | 3  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L686: LT01143  | Aripiprazole  | 5  | Adverse reactions  | ^{v}Less-DILI-concern  | Revised
+L687: LT01144  | Budesonide  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L688: LT01145  | Bumetanide  | 3  | Warnings & precautions  | Ambiguous-DILI-concern  | Unchanged
+L689: LT01148  | Buspirone hydrochloride  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L690: LT01149  | Eplerenone  | 4  | Adverse reactions  | ^{v}Less-DILI-concern  | Revised
+L691: LT01151  | Butorphanol tartrate  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L692: LT01152  | Cabergoline  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L693: LT01153  | Ezetimibe  | 3  | Warnings & precautions  | ^{v}Less-DILI-concern  | Unchanged
+L694: LT01154  | Pregabalin  | 0  | No match  | ^{v}Less-DILI-concern  | Unchanged
+L695: LT01155  | Adefovir dipivoxil  | 2  | Warnings & precautions  | ^{v}Less-DILI-concern  | Unchanged
+L696: LT01156  | Ibandronate sodium  | 0  | No match  | ^{v}Less-DILI-concern  | Revised
+L697: LT01157  | Pemetrexed disodium  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L698: LT01159  | Carbenicillin disodium  | 3  | Warnings & precautions  | ^{v}Less-DILI-concern  | Unchanged
+L699: LT01160  | Carbidopa  | 3  | Warnings & precautions  | Ambiguous-DILI-concern  | Unchanged
+L700: LT01161  | Eszopiclone  | 3  | Adverse reactions  | ^{v}Less-DILI-concern  | Revised
+L701: LT01166  | Cefaclor  | 3  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L702: LT01167  | Cefadroxil hemihydrate  | 7  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L703: LT01169  | Enfuvirtide  | 3  | Warnings & precautions  | Ambiguous-DILI-concern  | Unchanged
+L704: LT01171  | Cefazolin sodium  | 3  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L705: LT01172  | Cefepime hydrochloride  | 3  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L706: LT01173  | Cefixime  | 4  | Adverse reactions  | ^{v}Less-DILI-concern  | Revised
+L707: LT01176  | Cefoperazone sodium  | 3  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L708: LT01177  | Cefotaxime sodium  | 5  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L709: LT01178  | Cefotetan disodium  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L710: LT01179  | Cefoxitin sodium  | 3  | Warnings & precautions  | Ambiguous-DILI-concern  | Unchanged
+L711: LT01180  | Cefpodoxime proxetil  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L712: LT01181  | Oxaliplatin  | 4  | Warnings & precautions  | ^{v}Most-DILI-concern  | Unchanged
+L713: LT01182  | Cefprozil  | 4  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L714: LT01183  | Ceftibuten dihydrate  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L715: LT01184  | Nitazoxanide  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L716: LT01185  | Ceftriaxone sodium  | 4  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L717: LT01186  | Cefuroxime sodium  | 5  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L718: LT01187  | Micafungin sodium  | 7  | Warnings & precautions  | ^{v}Most-DILI-concern  | Unchanged
+L719: LT01188  | Darifenacin hydrobromide  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L720: LT01189  | Cephalexin  | 4  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L721: LT01190  | Cetirizine hydrochloride  | 3  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L722: LT01191  | Solifenacin succinate  | 3  | Adverse reactions  | ^{v}Less-DILI-concern  | Revised
+L723: LT01192  | Ranolazine  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L724: LT01193  | Etonogestrel  | 5  | Warnings & precautions  | Ambiguous-DILI-concern  | Unchanged
+L725: LT01194  | Fosamprenavir calcium  | 3  | Warnings & precautions  | Ambiguous-DILI-concern  | Unchanged
+L726: LT01195  | Aprepitant  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L727: LT01196  | Chloramphenicol  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L728: LT01198  | Chlordiazepoxide hydrochloride  | 5  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L729: LT01199  | Atazanavir sulfate  | 3  | Warnings & precautions  | ^{v}Less-DILI-concern  | Unchanged
+L730: LT01200  | Daptomycin  | 5  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L731: LT01201  | Chlormezanone  | 8  | Withdrawn  | ^{v}Most-DILI-concern  | Unchanged
+L732: LT01202  | Bortezomib  | 7  | Warnings & precautions  | ^{v}Most-DILI-concern  | Unchanged
+L733: LT01203  | Anidulafungin  | 7  | Warnings & precautions  | ^{v}Most-DILI-concern  | Revised
+L734: LT01204  | Rasagiline mesylate  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L735: LT01206  | Clofarabine  | 8  | Warnings & precautions  | Ambiguous-DILI-concern  | Unchanged
+L736: LT01207  | Chloroquine phosphate  | 3  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L737: LT01208  | Chlorothiazide  | 2  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L738: LT01209  | Cinacalcet hydrochloride  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L739: LT01210  | Conivaptan hydrochloride  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L740: LT01212  | Nebivolol hydrochloride  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L741: LT01213  | Chlorthalidone  | 2  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L742: LT01214  | Erlotinib hydrochloride  | 8  | Warnings & precautions  | ^{v}Most-DILI-concern  | Unchanged
+L743: LT01215  | Alvimopan  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L744: LT01216  | Cidofovir  | 5  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L745: LT01217  | Ramelteon  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L746: LT01218  | Cimetidine  | 2  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L747: LT01219  | Cinchophen  | 8  | Withdrawn  | ^{v}Most-DILI-concern  | Unchanged
+L748: LT01220  | Tipranavir  | 8  | Box warning  | ^{v}Most-DILI-concern  | Unchanged
+L749: LT01222  | Tigecycline  | 8  | Warnings & precautions  | ^{v}Most-DILI-concern  | Revised
+L750: LT01224  | Cladribine  | 3  | Warnings & precautions  | ^{v}Less-DILI-concern  | Revised
+L751: LT01225  | Clindamycin hydrochloride  | 3  | Warnings & precautions  | ^{v}Less-DILI-concern  | Unchanged
+L752: LT01227  | Mecasermin recombinant  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L753: LT01228  | Clometacin  | 8  | Withdrawn  | ^{v}Most-DILI-concern  | Unchanged
+L754: LT01229  | Urokinase  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L755: LT01230  | Armodafinil  | 3  | Warnings & precautions  | Ambiguous-DILI-concern  | Unchanged
+L756: LT01231  | Clonidine hydrochloride  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L757: LT01233  | Nelarabine  | 4  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L758: LT01235  | Cloxacillin sodium  | 3  | Warnings & precautions  | ^{v}Less-DILI-concern  | Unchanged
+L759: LT01238  | Lenalidomide  | 3  | Warnings & precautions  | ^{v}Less-DILI-concern  | Unchanged
+L760: LT01239  | Tetrabenazine  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L761: LT01240  | Lubiprostone  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L762: LT01241  | Sorafenib tosylate  | 8  | Warnings & precautions  | ^{v}Most-DILI-concern  | Unchanged
+L763: LT01242  | Varenicline tartrate  | 2  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L764: LT01243  | Darunavir  | 8  | Warnings & precautions  | ^{v}Most-DILI-concern  | Unchanged
+L765: LT01244  | Aliskiren hemifumarate  | 0  | No match  | ^{v}Less-DILI-concern  | Unchanged
+L766: LT01248  | Dasatinib  | 4  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L767: LT01249  | Cyclobenzaprine hydrochloride  | 5  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L768: LT01250  | Cyclofenil  | 8  | Withdrawn  | ^{v}Most-DILI-concern  | Unchanged
+
+
+Drug Induced Liver Injury Rank (DILIrank 2.0) Dataset | FDA (https://www.fda.gov/science-research/liver-toxicity-knowledge-base-ltkb/drug-induced-liver-injury-rank-dilirank-20-dataset)
+citeturn25view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"turn14view0","lineno":803}); Total lines: 1444
+L737: LT01208  | Chlorothiazide  | 2  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L738: LT01209  | Cinacalcet hydrochloride  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L739: LT01210  | Conivaptan hydrochloride  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L740: LT01212  | Nebivolol hydrochloride  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L741: LT01213  | Chlorthalidone  | 2  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L742: LT01214  | Erlotinib hydrochloride  | 8  | Warnings & precautions  | ^{v}Most-DILI-concern  | Unchanged
+L743: LT01215  | Alvimopan  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L744: LT01216  | Cidofovir  | 5  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L745: LT01217  | Ramelteon  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L746: LT01218  | Cimetidine  | 2  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L747: LT01219  | Cinchophen  | 8  | Withdrawn  | ^{v}Most-DILI-concern  | Unchanged
+L748: LT01220  | Tipranavir  | 8  | Box warning  | ^{v}Most-DILI-concern  | Unchanged
+L749: LT01222  | Tigecycline  | 8  | Warnings & precautions  | ^{v}Most-DILI-concern  | Revised
+L750: LT01224  | Cladribine  | 3  | Warnings & precautions  | ^{v}Less-DILI-concern  | Revised
+L751: LT01225  | Clindamycin hydrochloride  | 3  | Warnings & precautions  | ^{v}Less-DILI-concern  | Unchanged
+L752: LT01227  | Mecasermin recombinant  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L753: LT01228  | Clometacin  | 8  | Withdrawn  | ^{v}Most-DILI-concern  | Unchanged
+L754: LT01229  | Urokinase  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L755: LT01230  | Armodafinil  | 3  | Warnings & precautions  | Ambiguous-DILI-concern  | Unchanged
+L756: LT01231  | Clonidine hydrochloride  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L757: LT01233  | Nelarabine  | 4  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L758: LT01235  | Cloxacillin sodium  | 3  | Warnings & precautions  | ^{v}Less-DILI-concern  | Unchanged
+L759: LT01238  | Lenalidomide  | 3  | Warnings & precautions  | ^{v}Less-DILI-concern  | Unchanged
+L760: LT01239  | Tetrabenazine  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L761: LT01240  | Lubiprostone  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L762: LT01241  | Sorafenib tosylate  | 8  | Warnings & precautions  | ^{v}Most-DILI-concern  | Unchanged
+L763: LT01242  | Varenicline tartrate  | 2  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L764: LT01243  | Darunavir  | 8  | Warnings & precautions  | ^{v}Most-DILI-concern  | Unchanged
+L765: LT01244  | Aliskiren hemifumarate  | 0  | No match  | ^{v}Less-DILI-concern  | Unchanged
+L766: LT01248  | Dasatinib  | 4  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L767: LT01249  | Cyclobenzaprine hydrochloride  | 5  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L768: LT01250  | Cyclofenil  | 8  | Withdrawn  | ^{v}Most-DILI-concern  | Unchanged
+L769: LT01251  | Sitagliptin phosphate  | 4  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L770: LT01252  | Paliperidone  | 0  | No match  | ^{v}Less-DILI-concern  | Revised
+L771: LT01253  | Cycloserine  | 3  | Warnings & precautions  | Ambiguous-DILI-concern  | Unchanged
+L772: LT01254  | Posaconazole  | 8  | Warnings & precautions  | ^{v}Most-DILI-concern  | Revised
+L773: LT01255  | Cyproheptadine hydrochloride  | 7  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L774: LT01256  | Cysteamine bitartrate  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L775: LT01257  | Fosaprepitant dimeglumine  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L776: LT01258  | Hydroxocobalamin  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L777: LT01261  | Temsirolimus  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L778: LT01262  | Sapropterin dihydrochloride  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L779: LT01263  | Milnacipran hydrochloride  | 7  | Warnings & precautions  | ^{v}Most-DILI-concern  | Unchanged
+L780: LT01265  | Desipramine hydrochloride  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L781: LT01266  | Dexlansoprazole  | 4  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L782: LT01267  | Everolimus  | 4  | Adverse reactions  | ^{v}Less-DILI-concern  | Revised
+L783: LT01268  | Liraglutide  | 4  | Adverse reactions  | ^{v}Less-DILI-concern  | New
+L784: LT01269  | Codeine sulfate  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L785: LT01273  | Dexrazoxane hydrochloride  | 4  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L786: LT01275  | Colistimethate sodium  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L787: LT01276  | Benzylpenicilloyl polylysine  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L788: LT01279  | Cephradine  | 4  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L789: LT01281  | Ceftizoxime sodium  | 4  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L790: LT01285  | Didanosine  | 8  | Warnings & precautions  | ^{v}Most-DILI-concern  | Unchanged
+L791: LT01288  | Mycophenolate mofetil  | 3  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L792: LT01289  | Cefdinir  | 7  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L793: LT01291  | Polymyxin b sulfate  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L794: LT01292  | Diltiazem hydrochloride  | 4  | Warnings & precautions  | ^{v}Most-DILI-concern  | Unchanged
+L795: LT01294  | Sterile water  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L796: LT01302  | Disopyramide phosphate  | 2  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L797: LT01303  | Asparaginase  | 7  | Warnings & precautions  | ^{v}Most-DILI-concern  | Unchanged
+L798: LT01305  | Botulinum toxin type a  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L799: LT01306  | Interferon alfa-2b  | 8  | Warnings & precautions  | ^{v}Most-DILI-concern  | Unchanged
+L800: LT01308  | Dobutamine hydrochloride  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L801: LT01309  | Docetaxel  | 3  | Warnings & precautions  | ^{v}Less-DILI-concern  | Unchanged
+L802: LT01311  | Interferon alfa-2a, recombinant  | 8  | Warnings & precautions  | ^{v}Most-DILI-concern  | Unchanged
+L803: LT01313  | Doxazosin mesylate  | 3  | Adverse reactions  | ^{v}Less-DILI-concern  | Revised
+L804: LT01314  | Doxepin hydrochloride  | 4  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L805: LT01315  | Alteplase  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L806: LT01316  | Epoetin alfa  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L807: LT01317  | Droperidol  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L808: LT01318  | Droxicam  | 8  | Withdrawn  | ^{v}Most-DILI-concern  | Unchanged
+L809: LT01319  | Aldesleukin  | 3  | Warnings & precautions  | Ambiguous-DILI-concern  | Unchanged
+L810: LT01320  | Filgrastim  | 1  | Adverse reactions  | ^{v}Less-DILI-concern  | Revised
+L811: LT01321  | Sargramostim  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L812: LT01322  | Pegaspargase  | 3  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L813: LT01323  | Efavirenz  | 7  | Warnings & precautions  | ^{v}Most-DILI-concern  | Unchanged
+L814: LT01326  | Muromonab-cd3  | 3  | Warnings & precautions  | Ambiguous-DILI-concern  | Unchanged
+L815: LT01328  | Interferon beta-1b  | 7  | Warnings & precautions  | ^{v}Most-DILI-concern  | Unchanged
+L816: LT01330  | Abciximab  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L817: LT01332  | Interferon beta-1a  | 7  | Warnings & precautions  | ^{v}Most-DILI-concern  | Unchanged
+L818: LT01333  | Esmolol hydrochloride  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L819: LT01334  | Estazolam  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L820: LT01336  | Interferon alfacon-1  | 7  | Warnings & precautions  | ^{v}Most-DILI-concern  | Unchanged
+L821: LT01339  | Oprelvekin  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L822: LT01342  | Estramustine phosphate sodium  | 4  | Warnings & precautions  | ^{v}Most-DILI-concern  | Unchanged
+L823: LT01344  | Ethacrynic acid  | 5  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L824: LT01345  | Ethambutol hydrochloride  | 8  | Warnings & precautions  | ^{v}Most-DILI-concern  | Unchanged
+L825: LT01346  | Basiliximab  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L826: LT01347  | Denileukin diftitox  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L827: LT01348  | Ethionamide  | 3  | Warnings & precautions  | ^{v}Less-DILI-concern  | Unchanged
+L828: LT01349  | Palivizumab  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L829: LT01350  | Infliximab  | 8  | Warnings & precautions  | ^{v}Most-DILI-concern  | Unchanged
+L830: LT01351  | Reteplase  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L831: LT01352  | Trastuzumab  | 0  | No match  | ^{v}Less-DILI-concern  | Unchanged
+L832: LT01353  | Etanercept  | 3  | Warnings & precautions  | ^{v}Less-DILI-concern  | Unchanged
+L833: LT01354  | Interferon gamma-1b  | 3  | Warnings & precautions  | Ambiguous-DILI-concern  | Unchanged
+L834: LT01355  | Etidronate disodium  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L835: LT01356  | Botulinum toxin type b  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L836: LT01357  | Etomidate  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L837: LT01359  | Exifone  | 8  | Withdrawn  | ^{v}Most-DILI-concern  | Unchanged
+L838: LT01360  | Tenecteplase  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L839: LT01363  | Rasburicase  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L840: LT01364  | Alemtuzumab  | 0  | No match  | ^{v}Less-DILI-concern  | Revised
+L841: LT01367  | Peginterferon alfa-2b  | 4  | Warnings & precautions  | ^{v}Most-DILI-concern  | Unchanged
+L842: LT01370  | Fexofenadine hydrochloride  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L843: LT01371  | Fialuridine  | 8  | Discontinued  | ^{v}Most-DILI-concern  | Unchanged
+L844: LT01372  | Fipexide  | 8  | Withdrawn  | ^{v}Most-DILI-concern  | Unchanged
+L845: LT01373  | Anakinra  | 0  | No match  | ^{v}Less-DILI-concern  | Unchanged
+L846: LT01374  | Darbepoetin alfa  | 0  | No match  | ^{v}Less-DILI-concern  | Unchanged
+L847: LT01375  | Flecainide acetate  | 7  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L848: LT01376  | Peginterferon alfa-2a  | 7  | Warnings & precautions  | Ambiguous-DILI-concern  | Unchanged
+L849: LT01377  | Omalizumab  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L850: LT01378  | Ibritumomab tiuxetan  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L851: LT01380  | Pegfilgrastim  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L852: LT01381  | Flucytosine  | 3  | Warnings & precautions  | Ambiguous-DILI-concern  | Unchanged
+L853: LT01382  | Fludarabine phosphate  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L854: LT01384  | Flumazenil  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L855: LT01387  | Adalimumab  | 7  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L856: LT01389  | Cetuximab  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L857: LT01390  | Bevacizumab  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L858: LT01392  | Palifermin  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L859: LT01393  | Natalizumab  | 5  | Warnings & precautions  | ^{v}Most-DILI-concern  | Unchanged
+L860: LT01394  | Flurazepam hydrochloride  | 4  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L861: LT01396  | Fluvoxamine maleate  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L862: LT01397  | Foscarnet sodium  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L863: LT01398  | Fosfomycin tromethamine  | 6  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L864: LT01399  | Fosinopril sodium  | 3  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L865: LT01400  | Fosphenytoin sodium  | 8  | Warnings & precautions  | ^{v}Most-DILI-concern  | Unchanged
+L866: LT01401  | Galsulfase  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L867: LT01402  | Abatacept  | 0  | No match  | ^{v}Less-DILI-concern  | Unchanged
+L868: LT01404  | Alglucosidase alfa  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L869: LT01406  | Ganciclovir sodium  | 7  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L870: LT01407  | Gemcitabine hydrochloride  | 8  | Warnings & precautions  | ^{v}Most-DILI-concern  | Unchanged
+L871: LT01408  | Panitumumab  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L872: LT01409  | Idursulfase  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L873: LT01412  | Certolizumab pegol  | 4  | Adverse reactions  | ^{v}Less-DILI-concern  | Revised
+L874: LT01414  | Eculizumab  | 0  | No match  | ^{v}Less-DILI-concern  | Revised
+L875: LT01415  | Rilonacept  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L876: LT01416  | Ustekinumab  | 0  | No match  | ^{v}Less-DILI-concern  | Revised
+L877: LT01417  | Romiplostim  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L878: LT01419  | Golimumab  | 8  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L879: LT01421  | Ofatumumab  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L880: LT01422  | Guanfacine hydrochloride  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L881: LT01426  | Heparin sodium  | 3  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L882: LT01433  | Hydrochlorothiazide  | 2  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L883: LT01437  | Hydroxyzine hydrochloride  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L884: LT01440  | Idarubicin hydrochloride  | 3  | Warnings & precautions  | Ambiguous-DILI-concern  | Unchanged
+L885: LT01442  | Antithymocyte globulin  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L886: LT01444  | Indapamide  | 5  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L887: LT01446  | Indinavir sulfate  | 8  | Warnings & precautions  | Ambiguous-DILI-concern  | Unchanged
+L888: LT01454  | Iodipamide sodium  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L889: LT01466  | Irinotecan hydrochloride  | 3  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L890: LT01468  | Methionine  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L891: LT01469  | Isocarboxazid  | 5  | Warnings & precautions  | Ambiguous-DILI-concern  | Unchanged
+L892: LT01475  | Isradipine  | 3  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L893: LT01477  | Kanamycin  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L894: LT01479  | Riboflavin 5'-phosphate  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L895: LT01481  | Lamotrigine  | 7  | Warnings & precautions  | ^{v}Most-DILI-concern  | Unchanged
+L896: LT01486  | Levocarnitine  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L897: LT01488  | Levofloxacin  | 8  | Warnings & precautions  | ^{v}Most-DILI-concern  | Unchanged
+L898: LT01489  | Levonorgestrel  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L899: LT01491  | Lincomycin hydrochloride  | 3  | Warnings & precautions  | Ambiguous-DILI-concern  | Unchanged
+L900: LT01492  | Lisinopril  | 3  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L901: LT01497  | Loracarbef  | 3  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L902: LT01498  | Loratadine  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L903: LT01499  | Losartan potassium  | 4  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L904: LT01501  | Loxapine succinate  | 5  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L905: LT01503  | Maprotiline hydrochloride  | 5  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L906: LT01508  | Mebanazine  | 8  | Withdrawn  | ^{v}Most-DILI-concern  | Unchanged
+L907: LT01509  | Mechlorethamine hydrochloride  | 3  | Warnings & precautions  | Ambiguous-DILI-concern  | Unchanged
+L908: LT01511  | Meclofenamate sodium  | 3  | Warnings & precautions  | Ambiguous-DILI-concern  | Unchanged
+L909: LT01513  | Medroxyprogesterone acetate  | 2  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L910: LT01514  | Mefloquine hydrochloride  | 7  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L911: LT01516  | Vitamin E  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L912: LT01517  | Melphalan  | 5  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L913: LT01520  | Mephenytoin  | 5  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L914: LT01521  | Meprobamate  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L915: LT01525  | Meropenem  | 3  | Warnings & precautions  | ^{v}Less-DILI-concern  | Unchanged
+L916: LT01526  | Mesna  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L917: LT01527  | Mesoridazine besylate  | 5  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L918: LT01532  | Methazolamide  | 7  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L919: LT01537  | Methoxsalen  | 3  | Warnings & precautions  | ^{v}Less-DILI-concern  | Unchanged
+L920: LT01542  | Clobazam  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | New
+L921: LT01545  | Methylphenidate hydrochloride  | 3  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L922: LT01547  | Methscopolamine bromide  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L923: LT01549  | Metoclopramide hydrochloride  | 5  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L924: LT01553  | Mexiletine hydrochloride  | 3  | Box warning  | ^{v}Most-DILI-concern  | Unchanged
+L925: LT01557  | Midazolam hydrochloride  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L926: LT01558  | Midodrine hydrochloride  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L927: LT01560  | Mirtazapine  | 3  | Warnings & precautions  | ^{v}Less-DILI-concern  | Unchanged
+L928: LT01564  | Mitotane  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L929: LT01565  | Mitoxantrone hydrochloride  | 3  | Warnings & precautions  | ^{v}Less-DILI-concern  | Unchanged
+L930: LT01567  | Moexipril hydrochloride  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L931: LT01571  | Moricizine hydrochloride  | 5  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L932: LT01574  | Moxisylyte  | 8  | Withdrawn  | ^{v}Most-DILI-concern  | Unchanged
+L933: LT01580  | Folic acid  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L934: LT01581  | Nabumetone  | 3  | Warnings & precautions  | Ambiguous-DILI-concern  | Unchanged
+L935: LT01582  | Nadolol  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L936: LT01583  | Nafcillin sodium  | 3  | Warnings & precautions  | ^{v}Less-DILI-concern  | Unchanged
+L937: LT01586  | Nalbuphine hydrochloride  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L938: LT01587  | Nalidixic acid  | 3  | Warnings & precautions  | Ambiguous-DILI-concern  | Unchanged
+L939: LT01588  | Nalmefene hydrochloride  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L940: LT01589  | Esomeprazole sodium  | 4  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L941: LT01594  | Nialamide  | 8  | Withdrawn  | ^{v}Most-DILI-concern  | Unchanged
+L942: LT01595  | Nicardipine hydrochloride  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L943: LT01600  | Nilutamide  | 8  | Warnings & precautions  | ^{v}Most-DILI-concern  | Unchanged
+L944: LT01601  | Nimodipine  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L945: LT01602  | Niperotidine  | 8  | Withdrawn  | ^{v}Most-DILI-concern  | Unchanged
+L946: LT01608  | Nitroglycerin  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L947: LT01611  | Nomifensine  | 8  | Withdrawn  | ^{v}Most-DILI-concern  | Unchanged
+L948: LT01614  | Norfloxacin  | 3  | Warnings & precautions  | ^{v}Less-DILI-concern  | Unchanged
+L949: LT01615  | Nortriptyline hydrochloride  | 8  | Warnings & precautions  | ^{v}Most-DILI-concern  | Unchanged
+L950: LT01618  | Octreotide acetate  | 2  | Warnings & precautions  | ^{v}Less-DILI-concern  | Unchanged
+L951: LT01619  | Ondansetron hydrochloride  | 7  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L952: LT01620  | Ofloxacin  | 3  | Warnings & precautions  | ^{v}Less-DILI-concern  | Unchanged
+L953: LT01623  | Diphenoxylate  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+
+
+Drug Induced Liver Injury Rank (DILIrank 2.0) Dataset | FDA (https://www.fda.gov/science-research/liver-toxicity-knowledge-base-ltkb/drug-induced-liver-injury-rank-dilirank-20-dataset)
+citeturn21view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"turn14view0","lineno":983}); Total lines: 1444
+L914: LT01521  | Meprobamate  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L915: LT01525  | Meropenem  | 3  | Warnings & precautions  | ^{v}Less-DILI-concern  | Unchanged
+L916: LT01526  | Mesna  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L917: LT01527  | Mesoridazine besylate  | 5  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L918: LT01532  | Methazolamide  | 7  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L919: LT01537  | Methoxsalen  | 3  | Warnings & precautions  | ^{v}Less-DILI-concern  | Unchanged
+L920: LT01542  | Clobazam  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | New
+L921: LT01545  | Methylphenidate hydrochloride  | 3  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L922: LT01547  | Methscopolamine bromide  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L923: LT01549  | Metoclopramide hydrochloride  | 5  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L924: LT01553  | Mexiletine hydrochloride  | 3  | Box warning  | ^{v}Most-DILI-concern  | Unchanged
+L925: LT01557  | Midazolam hydrochloride  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L926: LT01558  | Midodrine hydrochloride  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L927: LT01560  | Mirtazapine  | 3  | Warnings & precautions  | ^{v}Less-DILI-concern  | Unchanged
+L928: LT01564  | Mitotane  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L929: LT01565  | Mitoxantrone hydrochloride  | 3  | Warnings & precautions  | ^{v}Less-DILI-concern  | Unchanged
+L930: LT01567  | Moexipril hydrochloride  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L931: LT01571  | Moricizine hydrochloride  | 5  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L932: LT01574  | Moxisylyte  | 8  | Withdrawn  | ^{v}Most-DILI-concern  | Unchanged
+L933: LT01580  | Folic acid  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L934: LT01581  | Nabumetone  | 3  | Warnings & precautions  | Ambiguous-DILI-concern  | Unchanged
+L935: LT01582  | Nadolol  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L936: LT01583  | Nafcillin sodium  | 3  | Warnings & precautions  | ^{v}Less-DILI-concern  | Unchanged
+L937: LT01586  | Nalbuphine hydrochloride  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L938: LT01587  | Nalidixic acid  | 3  | Warnings & precautions  | Ambiguous-DILI-concern  | Unchanged
+L939: LT01588  | Nalmefene hydrochloride  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L940: LT01589  | Esomeprazole sodium  | 4  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L941: LT01594  | Nialamide  | 8  | Withdrawn  | ^{v}Most-DILI-concern  | Unchanged
+L942: LT01595  | Nicardipine hydrochloride  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L943: LT01600  | Nilutamide  | 8  | Warnings & precautions  | ^{v}Most-DILI-concern  | Unchanged
+L944: LT01601  | Nimodipine  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L945: LT01602  | Niperotidine  | 8  | Withdrawn  | ^{v}Most-DILI-concern  | Unchanged
+L946: LT01608  | Nitroglycerin  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L947: LT01611  | Nomifensine  | 8  | Withdrawn  | ^{v}Most-DILI-concern  | Unchanged
+L948: LT01614  | Norfloxacin  | 3  | Warnings & precautions  | ^{v}Less-DILI-concern  | Unchanged
+L949: LT01615  | Nortriptyline hydrochloride  | 8  | Warnings & precautions  | ^{v}Most-DILI-concern  | Unchanged
+L950: LT01618  | Octreotide acetate  | 2  | Warnings & precautions  | ^{v}Less-DILI-concern  | Unchanged
+L951: LT01619  | Ondansetron hydrochloride  | 7  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L952: LT01620  | Ofloxacin  | 3  | Warnings & precautions  | ^{v}Less-DILI-concern  | Unchanged
+L953: LT01623  | Diphenoxylate  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L954: LT01624  | Oxacillin sodium  | 3  | Warnings & precautions  | ^{v}Less-DILI-concern  | Unchanged
+L955: LT01629  | Ambenonium chloride  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L956: LT01637  | Papaverine hydrochloride  | 5  | Warnings & precautions  | ^{v}Most-DILI-concern  | Unchanged
+L957: LT01644  | Penbutolol sulfate  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L958: LT01646  | Penicillin g benzathine  | 3  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L959: LT01648  | Penicillin v potassium  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L960: LT01650  | Pentazocine lactate  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L961: LT01651  | Pentostatin  | 3  | Box warning  | ^{v}Most-DILI-concern  | Unchanged
+L962: LT01652  | Pentoxifylline  | 5  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L963: LT01655  | Perphenazine  | 3  | Warnings & precautions  | ^{v}Less-DILI-concern  | Unchanged
+L964: LT01657  | Phenelzine sulfate  | 3  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L965: LT01666  | Ephedrine sulfate  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L966: LT01671  | Pilocarpine  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L967: LT01672  | Pimozide  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L968: LT01673  | Pindolol  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L969: LT01675  | Piperacillin sodium  | 3  | Warnings & precautions  | Ambiguous-DILI-concern  | Unchanged
+L970: LT01679  | Piroxicam  | 3  | Warnings & precautions  | ^{v}Less-DILI-concern  | Unchanged
+L971: LT01680  | Pirprofen  | 8  | Withdrawn  | ^{v}Most-DILI-concern  | Unchanged
+L972: LT01684  | Salsalate  | 3  | Warnings & precautions  | ^{v}Less-DILI-concern  | Unchanged
+L973: LT01688  | Polythiazide  | 2  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L974: LT01698  | Probenecid  | 6  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L975: LT01699  | Procainamide hydrochloride  | 4  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L976: LT01705  | Propafenone hydrochloride  | 3  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L977: LT01706  | Propranolol hydrochloride  | 3  | Warnings & precautions  | Ambiguous-DILI-concern  | Unchanged
+L978: LT01708  | Propofol  | 3  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L979: LT01713  | Pyrantel pamoate  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L980: LT01716  | Pyrimethamine  | 3  | Warnings & precautions  | ^{v}Less-DILI-concern  | Unchanged
+L981: LT01721  | Quazepam  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L982: LT01723  | Quinapril hydrochloride  | 3  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L983: LT01725  | Quinidine gluconate  | 3  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L984: LT01726  | Ramipril  | 7  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L985: LT01729  | Reserpine  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L986: LT01730  | Ribavirin  | 7  | Adverse reactions  | ^{v}Less-DILI-concern  | Revised
+L987: LT01731  | Riluzole  | 8  | Warnings & precautions  | ^{v}Most-DILI-concern  | Unchanged
+L988: LT01735  | Risperidone  | 3  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L989: LT01737  | Ritonavir  | 8  | Warnings & precautions  | ^{v}Most-DILI-concern  | Unchanged
+L990: LT01746  | Saquinavir mesylate  | 3  | Warnings & precautions  | ^{v}Less-DILI-concern  | Unchanged
+L991: LT01749  | Selegiline hydrochloride  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L992: LT01757  | Spectinomycin hydrochloride  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L993: LT01766  | Succimer  | 2  | Warnings & precautions  | ^{v}Less-DILI-concern  | Unchanged
+L994: LT01774  | Defibrotide sodium  | 0  | No match  | ^{v}No-DILI-concern  | New
+L995: LT01776  | Lofexidine hydrochloride  | 0  | No match  | ^{v}No-DILI-concern  | New
+L996: LT01779  | Sumatriptan succinate  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L997: LT01784  | Icatibant acetate  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | New
+L998: LT01785  | Temazepam  | 3  | Warnings & precautions  | Ambiguous-DILI-concern  | Unchanged
+L999: LT01786  | Teniposide  | 3  | Warnings & precautions  | ^{v}Less-DILI-concern  | Unchanged
+L1000: LT01787  | Terazosin hydrochloride  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L1001: LT01788  | Droxidopa  | 0  | No match  | ^{v}No-DILI-concern  | New
+L1002: LT01793  | Amisulpride  | 3  | Adverse reactions  | ^{v}Less-DILI-concern  | New
+L1003: LT01804  | Thiotepa  | 3  | Warnings & precautions  | ^{v}Less-DILI-concern  | Unchanged
+L1004: LT01805  | Thiothixene  | 2  | Warnings & precautions  | Ambiguous-DILI-concern  | Unchanged
+L1005: LT01815  | Timolol maleate  | 5  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L1006: LT01816  | suloctidil  | 8  | Withdrawn  | ^{v}Most-DILI-concern  | Unchanged
+L1007: LT01818  | Tiopronin  | 3  | Warnings & precautions  | Ambiguous-DILI-concern  | Unchanged
+L1008: LT01820  | Tolmetin sodium  | 3  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L1009: LT01822  | Tolrestat  | 8  | Withdrawn  | ^{v}Most-DILI-concern  | Unchanged
+L1010: LT01824  | Topotecan hydrochloride  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L1011: LT01827  | Tramadol hydrochloride  | 7  | Adverse reactions  | ^{v}Less-DILI-concern  | Revised
+L1012: LT01828  | Trandolapril  | 4  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L1013: LT01829  | Tranylcypromine sulfate  | 3  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L1014: LT01830  | Trazodone hydrochloride  | 5  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L1015: LT01833  | Triamterene  | 5  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L1016: LT01834  | Triazolam  | 4  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L1017: LT01839  | Trihexyphenidyl hydrochloride  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L1018: LT01840  | Trimethadione  | 5  | Warnings & precautions  | Ambiguous-DILI-concern  | Unchanged
+L1019: LT01841  | Trimethobenzamide hydrochloride  | 5  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L1020: LT01842  | Trimethoprim  | 4  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L1021: LT01843  | Trimetrexate glucuronate  | 3  | Warnings & precautions  | Ambiguous-DILI-concern  | Unchanged
+L1022: LT01844  | Trimipramine maleate  | 2  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L1023: LT01846  | Fenclozic acid  | 8  | Withdrawn  | ^{v}Most-DILI-concern  | Unchanged
+L1024: LT01849  | Ebrotidine  | 8  | Withdrawn  | ^{v}Most-DILI-concern  | Unchanged
+L1025: LT01853  | Aceclofenac  | 0  | No match  | ^{v}Less-DILI-concern  | Unchanged
+L1026: LT01854  | Nitrefazole  | 8  | Withdrawn  | ^{v}Most-DILI-concern  | Unchanged
+L1027: LT01855  | Ursodiol  | 0  | Warnings & precautions  | Ambiguous-DILI-concern  | Unchanged
+L1028: LT01856  | Valaciclovir  | 3  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L1029: LT01857  | Valsartan  | 3  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L1030: LT01858  | Tetrabamate  | 8  | Withdrawn  | ^{v}Most-DILI-concern  | Unchanged
+L1031: LT01861  | Viloxazine hydrochloride  | 0  | No match  | ^{v}No-DILI-concern  | New
+L1032: LT01862  | Vincristine sulfate  | 8  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L1033: LT01865  | Artesunate  | 5  | Adverse reactions  | Ambiguous-DILI-concern  | New
+L1034: LT01867  | Xenazoic acid  | 8  | Withdrawn  | ^{v}Most-DILI-concern  | Unchanged
+L1035: LT01869  | Zafirlukast  | 8  | Warnings & precautions  | ^{v}Most-DILI-concern  | Unchanged
+L1036: LT01870  | Falnidamol  | 8  | Discontinued  | ^{v}Most-DILI-concern  | Unchanged
+L1037: LT01874  | Zimelidine  | 8  | Withdrawn  | ^{v}Most-DILI-concern  | Unchanged
+L1038: LT01888  | Caffeine citrate  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L1039: LT01889  | Capreomycin sulfate  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L1040: LT01905  | Lidocaine  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L1041: LT01908  | Memantine hydrochloride  | 7  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L1042: LT01916  | Pamidronate disodium  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L1043: LT01923  | Quinine sulfate  | 3  | Warnings & precautions  | ^{v}Less-DILI-concern  | Unchanged
+L1044: LT01928  | Rosuvastatin calcium  | 3  | Warnings & precautions  | ^{v}Less-DILI-concern  | Unchanged
+L1045: LT01933  | Sulfamethizole  | 0  | No match  | ^{v}Less-DILI-concern  | Unchanged
+L1046: LT01944  | Telithromycin  | 8  | Warnings & precautions  | ^{v}Most-DILI-concern  | Unchanged
+L1047: LT01953  | Follitropin alfa/beta  | 3  | Warnings & precautions  | Ambiguous-DILI-concern  | Unchanged
+L1048: LT01968  | Entacapone  | 0  | No match  | ^{v}Less-DILI-concern  | Unchanged
+L1049: LT01971  | Valdecoxib  | 3  | Warnings & precautions  | ^{v}Less-DILI-concern  | Unchanged
+L1050: LT01972  | Dexpanthenol  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L1051: LT01974  | Scopolamine  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L1052: LT01980  | Pyridoxine hydrochloride  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L1053: LT01981  | Thiamine hydrochloride  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L1054: LT02002  | Cyanocobalamin  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L1055: LT02004  | Cromoglicate  | 3  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L1056: LT02007  | Montelukast sodium  | 3  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L1057: LT02008  | Moxifloxacin hydrochloride  | 8  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L1058: LT02009  | Vitamin C  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L1059: LT02010  | Sorbitol  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L1060: LT02018  | Capecitabine  | 2  | Warnings & precautions  | ^{v}Less-DILI-concern  | Revised
+L1061: LT02019  | Leuprolide acetate  | 3  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L1062: LT02024  | Eletriptan hydrobromide  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L1063: LT02026  | Hydroxychloroquine sulfate  | 7  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L1064: LT02031  | Fluoxymesterone  | 8  | Warnings & precautions  | Ambiguous-DILI-concern  | Unchanged
+L1065: LT02033  | Ximelagatran  | 8  | Withdrawn  | ^{v}Most-DILI-concern  | Unchanged
+L1066: LT02035  | Duloxetine hydrochloride  | 8  | Warnings & precautions  | ^{v}Most-DILI-concern  | Unchanged
+L1067: LT02037  | Carisoprodol  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L1068: LT02041  | Dicloxacillin sodium  | 3  | Warnings & precautions  | ^{v}Less-DILI-concern  | Unchanged
+L1069: LT02043  | Estrone  | 2  | Warnings & precautions  | Ambiguous-DILI-concern  | Unchanged
+L1070: LT02046  | Metolazone  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L1071: LT02055  | Pamabrom  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L1072: LT02056  | Dextromethorphan polistirex  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L1073: LT02059  | Bacitracin  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L1074: LT02061  | Paromomycin sulfate  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L1075: LT02063  | Telmisartan  | 3  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L1076: LT02064  | Gallium nitrate  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L1077: LT02067  | Ammonium chloride  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L1078: LT02070  | Amiloride hydrochloride  | 3  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L1079: LT02072  | Methysergide maleate  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L1080: LT02074  | Methylergonovine maleate  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L1081: LT02076  | Brompheniramine maleate  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L1082: LT02077  | Arginine hydrochloride  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L1083: LT02081  | Pyridostigmine bromide  | 0  | No match  | ^{v}Less-DILI-concern  | Revised
+L1084: LT02082  | Phenoxybenzamine hydrochloride  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L1085: LT02084  | Oxybutynin chloride  | 0  | No match  | ^{v}Less-DILI-concern  | Revised
+L1086: LT02085  | Orphenadrine hydrochloride  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L1087: LT02086  | Metaproterenol sulfate  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L1088: LT02087  | Loperamide hydrochloride  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L1089: LT02089  | Isoxsuprine hydrochloride  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L1090: LT02092  | Glafenine  | 8  | Withdrawn  | ^{v}Most-DILI-concern  | Unchanged
+L1091: LT02093  | Edrophonium chloride  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L1092: LT02096  | Acetylcholine chloride  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L1093: LT02100  | Amphetamine sulfate  | 0  | No match  | ^{v}Less-DILI-concern  | Unchanged
+L1094: LT02110  | Mepazine  | 8  | Withdrawn  | ^{v}Most-DILI-concern  | Unchanged
+L1095: LT02121  | Nandrolone phenpropionate  | 7  | Warnings & precautions  | ^{v}Most-DILI-concern  | Unchanged
+L1096: LT02145  | Omacetaxine mepesuccinate  | 4  | Adverse reactions  | Ambiguous-DILI-concern  | New
+L1097: LT02164  | Nifurtimox  | 0  | No match  | ^{v}No-DILI-concern  | New
+L1098: LT02166  | Auranofin  | 3  | Warnings & precautions  | ^{v}Less-DILI-concern  | Unchanged
+L1099: LT02171  | Simethicone-cellulose  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L1100: LT02189  | Betaine  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L1101: LT02190  | Bisacodyl  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L1102: LT02192  | Leucovorin calcium  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L1103: LT02203  | Ixabepilone  | 7  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L1104: LT02204  | Lapatinib ditosylate  | 8  | Box warning  | ^{v}Most-DILI-concern  | Unchanged
+L1105: LT02210  | Oseltamivir phosphate  | 3  | Adverse reactions  | ^{v}Less-DILI-concern  | Revised
+L1106: LT02213  | Alaproclate  | 8  | Withdrawn  | ^{v}Most-DILI-concern  | Unchanged
+L1107: LT02216  | Orlistat  | 8  | Warnings & precautions  | ^{v}Most-DILI-concern  | Unchanged
+L1108: LT02217  | Apomorphine hydrochloride  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L1109: LT02218  | Dihydroergotamine mesylate  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L1110: LT02219  | Procyclidine hydrochloride  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L1111: LT02222  | Clemastine fumarate  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L1112: LT02224  | Tenofovir disoproxil fumarate  | 3  | Warnings & precautions  | ^{v}Less-DILI-concern  | Unchanged
+L1113: LT02229  | Angiotensin ii acetate  | 0  | No match  | ^{v}No-DILI-concern  | New
+L1114: LT02269  | Norethindrone acetate  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L1115: LT02329  | Technetium tc-99m exametazime kit  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L1116: LT02330  | Erythropoietin  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L1117: LT02331  | Argipressin  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L1118: LT02336  | Gadobutrol  | 0  | No match  | ^{v}No-DILI-concern  | New
+L1119: LT02337  | Sodium bicarbonate  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L1120: LT02339  | Abiraterone acetate  | 8  | Warnings & precautions  | ^{v}Most-DILI-concern  | New
+L1121: LT02340  | Plerixafor  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L1122: LT02342  | Fingolimod hydrochloride  | 8  | Warnings & precautions  | ^{v}Most-DILI-concern  | New
+L1123: LT02343  | Sodium phenylbutyrate  | 4  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L1124: LT02345  | Dabigatran etexilate mesylate  | 0  | No match  | ^{v}Less-DILI-concern  | New
+L1125: LT02346  | Clindamycin phosphate  | 3  | Warnings & precautions  | ^{v}Less-DILI-concern  | Revised
+L1126: LT02349  | Bosutinib monohydrate  | 4  | Warnings & precautions  | ^{v}Most-DILI-concern  | New
+L1127: LT02352  | Rilpivirine hydrochloride  | 3  | Warnings & precautions  | ^{v}Less-DILI-concern  | New
+
+
+Drug Induced Liver Injury Rank (DILIrank 2.0) Dataset | FDA (https://www.fda.gov/science-research/liver-toxicity-knowledge-base-ltkb/drug-induced-liver-injury-rank-dilirank-20-dataset)
+citeturn27view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"turn14view0","lineno":1163}); Total lines: 1444
+L1091: LT02093  | Edrophonium chloride  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L1092: LT02096  | Acetylcholine chloride  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L1093: LT02100  | Amphetamine sulfate  | 0  | No match  | ^{v}Less-DILI-concern  | Unchanged
+L1094: LT02110  | Mepazine  | 8  | Withdrawn  | ^{v}Most-DILI-concern  | Unchanged
+L1095: LT02121  | Nandrolone phenpropionate  | 7  | Warnings & precautions  | ^{v}Most-DILI-concern  | Unchanged
+L1096: LT02145  | Omacetaxine mepesuccinate  | 4  | Adverse reactions  | Ambiguous-DILI-concern  | New
+L1097: LT02164  | Nifurtimox  | 0  | No match  | ^{v}No-DILI-concern  | New
+L1098: LT02166  | Auranofin  | 3  | Warnings & precautions  | ^{v}Less-DILI-concern  | Unchanged
+L1099: LT02171  | Simethicone-cellulose  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L1100: LT02189  | Betaine  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L1101: LT02190  | Bisacodyl  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L1102: LT02192  | Leucovorin calcium  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L1103: LT02203  | Ixabepilone  | 7  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L1104: LT02204  | Lapatinib ditosylate  | 8  | Box warning  | ^{v}Most-DILI-concern  | Unchanged
+L1105: LT02210  | Oseltamivir phosphate  | 3  | Adverse reactions  | ^{v}Less-DILI-concern  | Revised
+L1106: LT02213  | Alaproclate  | 8  | Withdrawn  | ^{v}Most-DILI-concern  | Unchanged
+L1107: LT02216  | Orlistat  | 8  | Warnings & precautions  | ^{v}Most-DILI-concern  | Unchanged
+L1108: LT02217  | Apomorphine hydrochloride  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L1109: LT02218  | Dihydroergotamine mesylate  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L1110: LT02219  | Procyclidine hydrochloride  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L1111: LT02222  | Clemastine fumarate  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L1112: LT02224  | Tenofovir disoproxil fumarate  | 3  | Warnings & precautions  | ^{v}Less-DILI-concern  | Unchanged
+L1113: LT02229  | Angiotensin ii acetate  | 0  | No match  | ^{v}No-DILI-concern  | New
+L1114: LT02269  | Norethindrone acetate  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L1115: LT02329  | Technetium tc-99m exametazime kit  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L1116: LT02330  | Erythropoietin  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L1117: LT02331  | Argipressin  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L1118: LT02336  | Gadobutrol  | 0  | No match  | ^{v}No-DILI-concern  | New
+L1119: LT02337  | Sodium bicarbonate  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L1120: LT02339  | Abiraterone acetate  | 8  | Warnings & precautions  | ^{v}Most-DILI-concern  | New
+L1121: LT02340  | Plerixafor  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L1122: LT02342  | Fingolimod hydrochloride  | 8  | Warnings & precautions  | ^{v}Most-DILI-concern  | New
+L1123: LT02343  | Sodium phenylbutyrate  | 4  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L1124: LT02345  | Dabigatran etexilate mesylate  | 0  | No match  | ^{v}Less-DILI-concern  | New
+L1125: LT02346  | Clindamycin phosphate  | 3  | Warnings & precautions  | ^{v}Less-DILI-concern  | Revised
+L1126: LT02349  | Bosutinib monohydrate  | 4  | Warnings & precautions  | ^{v}Most-DILI-concern  | New
+L1127: LT02352  | Rilpivirine hydrochloride  | 3  | Warnings & precautions  | ^{v}Less-DILI-concern  | New
+L1128: LT02356  | Tyramine  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L1129: LT02357  | Fidaxomicin  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | New
+L1130: LT02382  | Hetastarch  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L1131: LT02384  | Imiglucerase  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L1132: LT02385  | Agalsidase beta  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L1133: LT02386  | Eribulin mesylate  | 4  | Adverse reactions  | Ambiguous-DILI-concern  | New
+L1134: LT02387  | Ceftaroline fosamil  | 3  | Adverse reactions  | ^{v}Less-DILI-concern  | New
+L1135: LT02388  | Mirabegron  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | New
+L1136: LT02389  | Vandetanib  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | New
+L1137: LT02390  | Rivaroxaban  | 5  | Adverse reactions  | ^{v}Less-DILI-concern  | New
+L1138: LT02391  | Vilazodone hydrochloride  | 0  | No match  | ^{v}No-DILI-concern  | New
+L1139: LT02392  | Tofacitinib citrate  | 3  | Warnings & precautions  | Ambiguous-DILI-concern  | New
+L1140: LT02395  | Carfilzomib  | 8  | Warnings & precautions  | ^{v}Most-DILI-concern  | New
+L1141: LT02397  | Teriflunomide  | 8  | Box warning  | ^{v}Most-DILI-concern  | New
+L1142: LT02398  | Lomitapide mesylate  | 3  | Box warning  | ^{v}Most-DILI-concern  | New
+L1143: LT02399  | Axitinib  | 3  | Warnings & precautions  | Ambiguous-DILI-concern  | New
+L1144: LT02400  | Bedaquiline fumarate  | 3  | Warnings & precautions  | Ambiguous-DILI-concern  | New
+L1145: LT02401  | Pasireotide diaspartate  | 3  | Warnings & precautions  | Ambiguous-DILI-concern  | New
+L1146: LT02404  | Gadoxetate disodium  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L1147: LT02410  | Vismodegib  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | New
+L1148: LT02411  | Lurasidone hydrochloride  | 0  | No match  | ^{v}No-DILI-concern  | New
+L1149: LT02412  | Linaclotide  | 0  | No match  | ^{v}No-DILI-concern  | New
+L1150: LT02413  | Ticagrelor  | 0  | No match  | ^{v}No-DILI-concern  | New
+L1151: LT02418  | Apixaban  | 4  | Adverse reactions  | ^{v}Less-DILI-concern  | New
+L1152: LT02424  | Estrogens, conjugated  | 1  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L1153: LT02427  | Haloperidol decanoate  | 3  | Adverse reactions  | ^{v}Less-DILI-concern  | Revised
+L1154: LT02429  | Cabozantinib s-malate  | 4  | Adverse reactions  | Ambiguous-DILI-concern  | New
+L1155: LT02430  | Crofelemer  | 4  | Adverse reactions  | Ambiguous-DILI-concern  | New
+L1156: LT02431  | Ivacaftor  | 3  | Warnings & precautions  | ^{v}Less-DILI-concern  | New
+L1157: LT02432  | Canakinumab  | 3  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L1158: LT02433  | Regorafenib  | 8  | Box warning  | ^{v}Most-DILI-concern  | New
+L1159: LT02434  | Ponatinib hydrochloride  | 8  | Warnings & precautions  | Ambiguous-DILI-concern  | New
+L1160: LT02435  | Vemurafenib  | 3  | Warnings & precautions  | ^{v}Less-DILI-concern  | New
+L1161: LT02436  | Crizotinib  | 8  | Warnings & precautions  | ^{v}Most-DILI-concern  | New
+L1162: LT02437  | Levoleucovorin  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L1163: LT02440  | Avanafil  | 0  | No match  | ^{v}No-DILI-concern  | New
+L1164: LT02441  | Ruxolitinib phosphate  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | New
+L1165: LT02442  | Levomefolate calcium  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L1166: LT02443  | Ulipristal acetate  | 0  | No match  | ^{v}Less-DILI-concern  | New
+L1167: LT02444  | Enzalutamide  | 0  | No match  | ^{v}No-DILI-concern  | New
+L1168: LT02445  | Linagliptin  | 0  | No match  | ^{v}Less-DILI-concern  | New
+L1169: LT02446  | Perampanel  | 0  | No match  | ^{v}No-DILI-concern  | New
+L1170: LT02449  | Sitaxsentan  | 8  | Withdrawn  | ^{v}Most-DILI-concern  | Unchanged
+L1171: LT02451  | Macitentan  | 7  | Warnings & precautions  | ^{v}Most-DILI-concern  | New
+L1172: LT02516  | Cangrelor  | 0  | No match  | ^{v}No-DILI-concern  | New
+L1173: LT02665  | Ivabradine hydrochloride  | 0  | No match  | ^{v}No-DILI-concern  | New
+L1174: LT02726  | Deflazacort  | 0  | No match  | ^{v}No-DILI-concern  | New
+L1175: LT02728  | Stiripentol  | 0  | No match  | ^{v}No-DILI-concern  | New
+L1176: LT02745  | Lactitol  | 0  | No match  | ^{v}No-DILI-concern  | New
+L1177: LT02756  | Benznidazole  | 2  | Adverse reactions  | Ambiguous-DILI-concern  | New
+L1178: LT02876  | Gadoterate meglumine  | 0  | No match  | ^{v}No-DILI-concern  | New
+L1179: LT02877  | Dimethyl fumarate  | 4  | Warnings & precautions  | ^{v}Most-DILI-concern  | New
+L1180: LT02880  | Ospemifene  | 0  | No match  | ^{v}No-DILI-concern  | New
+L1181: LT02881  | Eslicarbazepine acetate  | 3  | Warnings & precautions  | Ambiguous-DILI-concern  | New
+L1182: LT02883  | Pomalidomide  | 8  | Warnings & precautions  | ^{v}Most-DILI-concern  | New
+L1183: LT02884  | Tasimelteon  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | New
+L1184: LT02888  | Alogliptin benzoate  | 8  | Warnings & precautions  | Ambiguous-DILI-concern  | New
+L1185: LT02889  | Afatinib dimaleate  | 8  | Warnings & precautions  | Ambiguous-DILI-concern  | New
+L1186: LT02891  | Dapagliflozin  | 0  | No match  | ^{v}No-DILI-concern  | New
+L1187: LT02894  | Riociguat  | 0  | No match  | ^{v}No-DILI-concern  | New
+L1188: LT02898  | Ibrutinib  | 7  | Adverse reactions  | ^{v}Most-DILI-concern  | New
+L1189: LT02899  | Canagliflozin  | 0  | No match  | ^{v}Less-DILI-concern  | New
+L1190: LT02900  | Cabazitaxel  | 4  | Adverse reactions  | Ambiguous-DILI-concern  | New
+L1191: LT02901  | Sofosbuvir  | 0  | No match  | ^{v}No-DILI-concern  | New
+L1192: LT02902  | Vortioxetine hydrobromide  | 0  | No match  | ^{v}Less-DILI-concern  | New
+L1193: LT02903  | Trametinib dimethyl sulfoxide  | 3  | Adverse reactions  | ^{v}Less-DILI-concern  | New
+L1194: LT02904  | Dabrafenib mesylate  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | New
+L1195: LT02905  | Dolutegravir sodium  | 8  | Warnings & precautions  | ^{v}Most-DILI-concern  | New
+L1196: LT02907  | Laronidase  | 4  | Adverse reactions  | Ambiguous-DILI-concern  | Unchanged
+L1197: LT02909  | Dexmethylphenidate hydrochloride  | 7  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L1198: LT02913  | Hyaluronidase recombinant human  | 0  | No match  | ^{v}No-DILI-concern  | Unchanged
+L1199: LT02929  | Escitalopram oxalate  | 7  | Adverse reactions  | ^{v}Less-DILI-concern  | Unchanged
+L1200: LT02956  | Miltefosine  | 4  | Warnings & precautions  | Ambiguous-DILI-concern  | New
+L1201: LT03076  | Triclabendazole  | 5  | Adverse reactions  | Ambiguous-DILI-concern  | New
+L1202: LT03143  | Secnidazole  | 7  | Adverse reactions  | Ambiguous-DILI-concern  | New
+L1203: LT03165  | Trabectedin  | 7  | Warnings & precautions  | Ambiguous-DILI-concern  | New
+L1204: LT03197  | Prucalopride succinate  | 0  | No match  | ^{v}No-DILI-concern  | New
+L1205: LT03224  | Sugammadex sodium  | 0  | No match  | ^{v}No-DILI-concern  | New
+L1206: LT03376  | Amifampridine  | 0  | No match  | ^{v}No-DILI-concern  | New
+L1207: LT03550  | Pirfenidone  | 8  | Warnings & precautions  | ^{v}Most-DILI-concern  | New
+L1208: LT03558  | Maribavir  | 0  | No match  | ^{v}No-DILI-concern  | New
+L1209: LT03562  | Dalbavancin hydrochloride  | 3  | Warnings & precautions  | Ambiguous-DILI-concern  | New
+L1210: LT03563  | Voclosporin  | 0  | No match  | ^{v}No-DILI-concern  | New
+L1211: LT03565  | Panobinostat lactate  | 3  | Warnings & precautions  | Ambiguous-DILI-concern  | New
+L1212: LT03576  | Tafamidis meglumine  | 0  | No match  | ^{v}No-DILI-concern  | New
+L1213: LT03578  | Cobicistat  | 5  | Adverse reactions  | Ambiguous-DILI-concern  | New
+L1214: LT03582  | Neratinib maleate  | 4  | Warnings & precautions  | Ambiguous-DILI-concern  | New
+L1215: LT03594  | Palbociclib  | 3  | Adverse reactions  | ^{v}Less-DILI-concern  | New
+L1216: LT03596  | Ceritinib  | 4  | Warnings & precautions  | ^{v}Most-DILI-concern  | New
+L1217: LT03600  | Zanubrutinib  | 4  | Adverse reactions  | ^{v}Most-DILI-concern  | New
+L1218: LT03603  | Obeticholic acid  | 8  | Box warning  | ^{v}Most-DILI-concern  | New
+L1219: LT03605  | Eluxadoline  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | New
+L1220: LT03606  | Ribociclib succinate  | 4  | Warnings & precautions  | ^{v}Most-DILI-concern  | New
+L1221: LT03610  | Idelalisib  | 8  | Box warning  | ^{v}Most-DILI-concern  | New
+L1222: LT03612  | Belinostat  | 8  | Warnings & precautions  | Ambiguous-DILI-concern  | New
+L1223: LT03613  | Cobimetinib fumarate  | 4  | Warnings & precautions  | Ambiguous-DILI-concern  | New
+L1224: LT03614  | Acalabrutinib  | 4  | Adverse reactions  | Ambiguous-DILI-concern  | New
+L1225: LT03616  | Lenvatinib mesylate  | 7  | Warnings & precautions  | Ambiguous-DILI-concern  | New
+L1226: LT03618  | Abaloparatide  | 0  | No match  | ^{v}No-DILI-concern  | New
+L1227: LT03619  | Abemaciclib  | 3  | Warnings & precautions  | ^{v}Less-DILI-concern  | New
+L1228: LT03620  | Alectinib hydrochloride  | 4  | Warnings & precautions  | Ambiguous-DILI-concern  | New
+L1229: LT03621  | Alpelisib  | 3  | Adverse reactions  | ^{v}Less-DILI-concern  | New
+L1230: LT03622  | Apalutamide  | 0  | No match  | ^{v}No-DILI-concern  | New
+L1231: LT03623  | Apremilast  | 0  | No match  | ^{v}No-DILI-concern  | New
+L1232: LT03624  | Aripiprazole lauroxil  | 5  | Adverse reactions  | ^{v}Less-DILI-concern  | New
+L1233: LT03625  | Asciminib hydrochloride  | 4  | Adverse reactions  | Ambiguous-DILI-concern  | New
+L1234: LT03626  | Atogepant  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | New
+L1235: LT03627  | Avacopan  | 8  | Warnings & precautions  | Ambiguous-DILI-concern  | New
+L1236: LT03628  | Avapritinib  | 4  | Adverse reactions  | Ambiguous-DILI-concern  | New
+L1237: LT03629  | Avatrombopag maleate  | 0  | No match  | ^{v}No-DILI-concern  | New
+L1238: LT03630  | Azilsartan kamedoxomil  | 0  | No match  | ^{v}No-DILI-concern  | New
+L1239: LT03631  | Baloxavir marboxil  | 0  | No match  | ^{v}No-DILI-concern  | New
+L1240: LT03632  | Baricitinib  | 3  | Warnings & precautions  | Ambiguous-DILI-concern  | New
+L1241: LT03633  | Belumosudil mesylate  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | New
+L1242: LT03634  | Belzutifan  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | New
+L1243: LT03635  | Bempedoic acid  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | New
+L1244: LT03636  | Berotralstat hydrochloride  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | New
+L1245: LT03637  | Binimetinib  | 3  | Warnings & precautions  | Ambiguous-DILI-concern  | New
+L1246: LT03638  | Bremelanotide acetate  | 4  | Adverse reactions  | Ambiguous-DILI-concern  | New
+L1247: LT03639  | Brexanolone  | 0  | No match  | ^{v}No-DILI-concern  | New
+L1248: LT03640  | Brexpiprazole  | 0  | No match  | ^{v}No-DILI-concern  | New
+L1249: LT03641  | Brigatinib  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | New
+L1250: LT03643  | Brivaracetam  | 0  | No match  | ^{v}No-DILI-concern  | New
+L1251: LT03644  | Cabotegravir sodium  | 3  | Warnings & precautions  | Ambiguous-DILI-concern  | New
+L1252: LT03645  | Cannabidiol  | 3  | Warnings & precautions  | Ambiguous-DILI-concern  | New
+L1253: LT03646  | Capmatinib hydrochloride  | 3  | Warnings & precautions  | ^{v}Less-DILI-concern  | New
+L1254: LT03647  | Cariprazine hydrochloride  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | New
+L1255: LT03648  | Casimersen  | 0  | No match  | ^{v}No-DILI-concern  | New
+L1256: LT03649  | Cefiderocol sulfate tosylate  | 2  | Adverse reactions  | Ambiguous-DILI-concern  | New
+L1257: LT03650  | Cenobamate  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | New
+L1258: LT03651  | Copanlisib dihydrochloride  | 0  | No match  | ^{v}No-DILI-concern  | New
+L1259: LT03652  | Dacomitinib  | 4  | Adverse reactions  | ^{v}Less-DILI-concern  | New
+L1260: LT03653  | Dalfampridine  | 0  | No match  | ^{v}No-DILI-concern  | New
+L1261: LT03654  | Darolutamide  | 4  | Adverse reactions  | Ambiguous-DILI-concern  | New
+L1262: LT03655  | Dasiglucagon hydrochloride  | 0  | No match  | ^{v}No-DILI-concern  | New
+L1263: LT03656  | Delafloxacin meglumine  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | New
+L1264: LT03657  | Deoxycholic acid  | 0  | No match  | ^{v}No-DILI-concern  | New
+L1265: LT03658  | Deutetrabenazine  | 0  | No match  | ^{v}No-DILI-concern  | New
+L1266: LT03659  | Difelikefalin acetate  | 0  | No match  | ^{v}No-DILI-concern  | New
+L1267: LT03660  | Diroximel fumarate  | 4  | Warnings & precautions  | Ambiguous-DILI-concern  | New
+L1268: LT03661  | Doravirine  | 4  | Adverse reactions  | Ambiguous-DILI-concern  | New
+L1269: LT03662  | Duvelisib  | 4  | Warnings & precautions  | Ambiguous-DILI-concern  | New
+L1270: LT03663  | Edaravone  | 0  | No match  | ^{v}No-DILI-concern  | New
+L1271: LT03664  | Edoxaban tosylate  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | New
+L1272: LT03665  | Elagolix sodium  | 3  | Warnings & precautions  | Ambiguous-DILI-concern  | New
+L1273: LT03666  | Eliglustat tartrate  | 0  | No match  | ^{v}No-DILI-concern  | New
+L1274: LT03667  | Empagliflozin  | 0  | No match  | ^{v}No-DILI-concern  | New
+L1275: LT03668  | Enasidenib mesylate  | 4  | Adverse reactions  | Ambiguous-DILI-concern  | New
+L1276: LT03669  | Encorafenib  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | New
+L1277: LT03670  | Entrectinib  | 3  | Warnings & precautions  | Ambiguous-DILI-concern  | New
+L1278: LT03671  | Eravacycline dihydrochloride  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | New
+L1279: LT03672  | Erdafitinib  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | New
+L1280: LT03673  | Ertugliflozin  | 0  | No match  | ^{v}No-DILI-concern  | New
+L1281: LT03674  | Etelcalcetide  | 0  | No match  | ^{v}No-DILI-concern  | New
+L1282: LT03675  | Eteplirsen  | 0  | No match  | ^{v}No-DILI-concern  | New
+L1283: LT03676  | Fedratinib hydrochloride  | 3  | Warnings & precautions  | Ambiguous-DILI-concern  | New
+L1284: LT03677  | Ferric maltol  | 0  | No match  | ^{v}No-DILI-concern  | New
+L1285: LT03678  | Fexinidazole  | 3  | Warnings & precautions  | Ambiguous-DILI-concern  | New
+L1286: LT03679  | Finerenone  | 0  | No match  | ^{v}No-DILI-concern  | New
+L1287: LT03680  | Flibanserin  | 0  | No match  | ^{v}No-DILI-concern  | New
+L1288: LT03681  | Fosdenopterin hydrobromide  | 0  | No match  | ^{v}No-DILI-concern  | New
+L1289: LT03682  | Fostamatinib disodium  | 3  | Warnings & precautions  | Ambiguous-DILI-concern  | New
+L1290: LT03683  | Fostemsavir tromethamine  | 3  | Warnings & precautions  | Ambiguous-DILI-concern  | New
+L1291: LT03684  | Gabapentin enacarbil  | 0  | No match  | ^{v}No-DILI-concern  | New
+L1292: LT03685  | Gilteritinib fumarate  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | New
+L1293: LT03686  | Givosiran sodium  | 3  | Warnings & precautions  | ^{v}Less-DILI-concern  | New
+L1294: LT03687  | Glasdegib maleate  | 4  | Adverse reactions  | Ambiguous-DILI-concern  | New
+L1295: LT03688  | Golodirsen  | 0  | No match  | ^{v}No-DILI-concern  | New
+L1296: LT03689  | Ibrexafungerp citrate  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | New
+L1297: LT03691  | Inclisiran sodium  | 4  | Adverse reactions  | ^{v}Less-DILI-concern  | New
+L1298: LT03692  | Infigratinib phosphate  | 4  | Adverse reactions  | Ambiguous-DILI-concern  | New
+L1299: LT03693  | Inotersen sodium  | 3  | Warnings & precautions  | Ambiguous-DILI-concern  | New
+L1300: LT03694  | Isavuconazonium sulfate  | 8  | Warnings & precautions  | Ambiguous-DILI-concern  | New
+L1301: LT03695  | Istradefylline  | 0  | No match  | ^{v}No-DILI-concern  | New
+L1302: LT03696  | Ivosidenib  | 4  | Adverse reactions  | Ambiguous-DILI-concern  | New
+L1303: LT03697  | Ixazomib citrate  | 5  | Warnings & precautions  | Ambiguous-DILI-concern  | New
+L1304: LT03698  | Larotrectinib sulfate  | 3  | Warnings & precautions  | Ambiguous-DILI-concern  | New
+L1305: LT03699  | Lasmiditan succinate  | 0  | No match  | ^{v}No-DILI-concern  | New
+L1306: LT03700  | Lemborexant  | 0  | No match  | ^{v}No-DILI-concern  | New
+L1307: LT03701  | Letermovir  | 0  | No match  | ^{v}Less-DILI-concern  | New
+
+
+Drug Induced Liver Injury Rank (DILIrank 2.0) Dataset | FDA (https://www.fda.gov/science-research/liver-toxicity-knowledge-base-ltkb/drug-induced-liver-injury-rank-dilirank-20-dataset)
+citeturn26view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"turn14view0","lineno":1343}); Total lines: 1444
+L1206: LT03376  | Amifampridine  | 0  | No match  | ^{v}No-DILI-concern  | New
+L1207: LT03550  | Pirfenidone  | 8  | Warnings & precautions  | ^{v}Most-DILI-concern  | New
+L1208: LT03558  | Maribavir  | 0  | No match  | ^{v}No-DILI-concern  | New
+L1212: LT03576  | Tafamidis meglumine  | 0  | No match  | ^{v}No-DILI-concern  | New
+L1213: LT03578  | Cobicistat  | 5  | Adverse reactions  | Ambiguous-DILI-concern  | New
+L1214: LT03582  | Neratinib maleate  | 4  | Warnings & precautions  | Ambiguous-DILI-concern  | New
+L1215: LT03594  | Palbociclib  | 3  | Adverse reactions  | ^{v}Less-DILI-concern  | New
+L1216: LT03596  | Ceritinib  | 4  | Warnings & precautions  | ^{v}Most-DILI-concern  | New
+L1217: LT03600  | Zanubrutinib  | 4  | Adverse reactions  | ^{v}Most-DILI-concern  | New
+L1218: LT03603  | Obeticholic acid  | 8  | Box warning  | ^{v}Most-DILI-concern  | New
+L1219: LT03605  | Eluxadoline  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | New
+L1220: LT03606  | Ribociclib succinate  | 4  | Warnings & precautions  | ^{v}Most-DILI-concern  | New
+L1221: LT03610  | Idelalisib  | 8  | Box warning  | ^{v}Most-DILI-concern  | New
+L1222: LT03612  | Belinostat  | 8  | Warnings & precautions  | Ambiguous-DILI-concern  | New
+L1223: LT03613  | Cobimetinib fumarate  | 4  | Warnings & precautions  | Ambiguous-DILI-concern  | New
+L1224: LT03614  | Acalabrutinib  | 4  | Adverse reactions  | Ambiguous-DILI-concern  | New
+L1225: LT03616  | Lenvatinib mesylate  | 7  | Warnings & precautions  | Ambiguous-DILI-concern  | New
+L1226: LT03618  | Abaloparatide  | 0  | No match  | ^{v}No-DILI-concern  | New
+L1227: LT03619  | Abemaciclib  | 3  | Warnings & precautions  | ^{v}Less-DILI-concern  | New
+L1228: LT03620  | Alectinib hydrochloride  | 4  | Warnings & precautions  | Ambiguous-DILI-concern  | New
+L1229: LT03621  | Alpelisib  | 3  | Adverse reactions  | ^{v}Less-DILI-concern  | New
+L1230: LT03622  | Apalutamide  | 0  | No match  | ^{v}No-DILI-concern  | New
+L1231: LT03623  | Apremilast  | 0  | No match  | ^{v}No-DILI-concern  | New
+L1232: LT03624  | Aripiprazole lauroxil  | 5  | Adverse reactions  | ^{v}Less-DILI-concern  | New
+L1233: LT03625  | Asciminib hydrochloride  | 4  | Adverse reactions  | Ambiguous-DILI-concern  | New
+L1234: LT03626  | Atogepant  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | New
+L1235: LT03627  | Avacopan  | 8  | Warnings & precautions  | Ambiguous-DILI-concern  | New
+L1236: LT03628  | Avapritinib  | 4  | Adverse reactions  | Ambiguous-DILI-concern  | New
+L1237: LT03629  | Avatrombopag maleate  | 0  | No match  | ^{v}No-DILI-concern  | New
+L1238: LT03630  | Azilsartan kamedoxomil  | 0  | No match  | ^{v}No-DILI-concern  | New
+L1239: LT03631  | Baloxavir marboxil  | 0  | No match  | ^{v}No-DILI-concern  | New
+L1240: LT03632  | Baricitinib  | 3  | Warnings & precautions  | Ambiguous-DILI-concern  | New
+L1241: LT03633  | Belumosudil mesylate  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | New
+L1242: LT03634  | Belzutifan  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | New
+L1243: LT03635  | Bempedoic acid  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | New
+L1244: LT03636  | Berotralstat hydrochloride  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | New
+L1245: LT03637  | Binimetinib  | 3  | Warnings & precautions  | Ambiguous-DILI-concern  | New
+L1246: LT03638  | Bremelanotide acetate  | 4  | Adverse reactions  | Ambiguous-DILI-concern  | New
+L1247: LT03639  | Brexanolone  | 0  | No match  | ^{v}No-DILI-concern  | New
+L1248: LT03640  | Brexpiprazole  | 0  | No match  | ^{v}No-DILI-concern  | New
+L1249: LT03641  | Brigatinib  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | New
+L1250: LT03643  | Brivaracetam  | 0  | No match  | ^{v}No-DILI-concern  | New
+L1251: LT03644  | Cabotegravir sodium  | 3  | Warnings & precautions  | Ambiguous-DILI-concern  | New
+L1252: LT03645  | Cannabidiol  | 3  | Warnings & precautions  | Ambiguous-DILI-concern  | New
+L1253: LT03646  | Capmatinib hydrochloride  | 3  | Warnings & precautions  | ^{v}Less-DILI-concern  | New
+L1254: LT03647  | Cariprazine hydrochloride  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | New
+L1255: LT03648  | Casimersen  | 0  | No match  | ^{v}No-DILI-concern  | New
+L1256: LT03649  | Cefiderocol sulfate tosylate  | 2  | Adverse reactions  | Ambiguous-DILI-concern  | New
+L1257: LT03650  | Cenobamate  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | New
+L1258: LT03651  | Copanlisib dihydrochloride  | 0  | No match  | ^{v}No-DILI-concern  | New
+L1259: LT03652  | Dacomitinib  | 4  | Adverse reactions  | ^{v}Less-DILI-concern  | New
+L1260: LT03653  | Dalfampridine  | 0  | No match  | ^{v}No-DILI-concern  | New
+L1261: LT03654  | Darolutamide  | 4  | Adverse reactions  | Ambiguous-DILI-concern  | New
+L1262: LT03655  | Dasiglucagon hydrochloride  | 0  | No match  | ^{v}No-DILI-concern  | New
+L1263: LT03656  | Delafloxacin meglumine  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | New
+L1264: LT03657  | Deoxycholic acid  | 0  | No match  | ^{v}No-DILI-concern  | New
+L1265: LT03658  | Deutetrabenazine  | 0  | No match  | ^{v}No-DILI-concern  | New
+L1266: LT03659  | Difelikefalin acetate  | 0  | No match  | ^{v}No-DILI-concern  | New
+L1267: LT03660  | Diroximel fumarate  | 4  | Warnings & precautions  | Ambiguous-DILI-concern  | New
+L1268: LT03661  | Doravirine  | 4  | Adverse reactions  | Ambiguous-DILI-concern  | New
+L1269: LT03662  | Duvelisib  | 4  | Warnings & precautions  | Ambiguous-DILI-concern  | New
+L1270: LT03663  | Edaravone  | 0  | No match  | ^{v}No-DILI-concern  | New
+L1271: LT03664  | Edoxaban tosylate  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | New
+L1272: LT03665  | Elagolix sodium  | 3  | Warnings & precautions  | Ambiguous-DILI-concern  | New
+L1273: LT03666  | Eliglustat tartrate  | 0  | No match  | ^{v}No-DILI-concern  | New
+L1274: LT03667  | Empagliflozin  | 0  | No match  | ^{v}No-DILI-concern  | New
+L1275: LT03668  | Enasidenib mesylate  | 4  | Adverse reactions  | Ambiguous-DILI-concern  | New
+L1276: LT03669  | Encorafenib  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | New
+L1277: LT03670  | Entrectinib  | 3  | Warnings & precautions  | Ambiguous-DILI-concern  | New
+L1278: LT03671  | Eravacycline dihydrochloride  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | New
+L1279: LT03672  | Erdafitinib  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | New
+L1280: LT03673  | Ertugliflozin  | 0  | No match  | ^{v}No-DILI-concern  | New
+L1281: LT03674  | Etelcalcetide  | 0  | No match  | ^{v}No-DILI-concern  | New
+L1282: LT03675  | Eteplirsen  | 0  | No match  | ^{v}No-DILI-concern  | New
+L1283: LT03676  | Fedratinib hydrochloride  | 3  | Warnings & precautions  | Ambiguous-DILI-concern  | New
+L1284: LT03677  | Ferric maltol  | 0  | No match  | ^{v}No-DILI-concern  | New
+L1285: LT03678  | Fexinidazole  | 3  | Warnings & precautions  | Ambiguous-DILI-concern  | New
+L1286: LT03679  | Finerenone  | 0  | No match  | ^{v}No-DILI-concern  | New
+L1287: LT03680  | Flibanserin  | 0  | No match  | ^{v}No-DILI-concern  | New
+L1288: LT03681  | Fosdenopterin hydrobromide  | 0  | No match  | ^{v}No-DILI-concern  | New
+L1289: LT03682  | Fostamatinib disodium  | 3  | Warnings & precautions  | Ambiguous-DILI-concern  | New
+L1290: LT03683  | Fostemsavir tromethamine  | 3  | Warnings & precautions  | Ambiguous-DILI-concern  | New
+L1291: LT03684  | Gabapentin enacarbil  | 0  | No match  | ^{v}No-DILI-concern  | New
+L1292: LT03685  | Gilteritinib fumarate  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | New
+L1293: LT03686  | Givosiran sodium  | 3  | Warnings & precautions  | ^{v}Less-DILI-concern  | New
+L1294: LT03687  | Glasdegib maleate  | 4  | Adverse reactions  | Ambiguous-DILI-concern  | New
+L1295: LT03688  | Golodirsen  | 0  | No match  | ^{v}No-DILI-concern  | New
+L1296: LT03689  | Ibrexafungerp citrate  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | New
+L1297: LT03691  | Inclisiran sodium  | 4  | Adverse reactions  | ^{v}Less-DILI-concern  | New
+L1298: LT03692  | Infigratinib phosphate  | 4  | Adverse reactions  | Ambiguous-DILI-concern  | New
+L1299: LT03693  | Inotersen sodium  | 3  | Warnings & precautions  | Ambiguous-DILI-concern  | New
+L1300: LT03694  | Isavuconazonium sulfate  | 8  | Warnings & precautions  | Ambiguous-DILI-concern  | New
+L1301: LT03695  | Istradefylline  | 0  | No match  | ^{v}No-DILI-concern  | New
+L1302: LT03696  | Ivosidenib  | 4  | Adverse reactions  | Ambiguous-DILI-concern  | New
+L1303: LT03697  | Ixazomib citrate  | 5  | Warnings & precautions  | Ambiguous-DILI-concern  | New
+L1304: LT03698  | Larotrectinib sulfate  | 3  | Warnings & precautions  | Ambiguous-DILI-concern  | New
+L1305: LT03699  | Lasmiditan succinate  | 0  | No match  | ^{v}No-DILI-concern  | New
+L1306: LT03700  | Lemborexant  | 0  | No match  | ^{v}No-DILI-concern  | New
+L1307: LT03701  | Letermovir  | 0  | No match  | ^{v}Less-DILI-concern  | New
+L1308: LT03702  | Levamlodipine maleate  | 5  | Adverse reactions  | Ambiguous-DILI-concern  | New
+L1309: LT03703  | Lonafarnib  | 3  | Warnings & precautions  | Ambiguous-DILI-concern  | New
+L1310: LT03704  | Lorlatinib  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | New
+L1311: LT03705  | Lumasiran sodium  | 0  | No match  | ^{v}No-DILI-concern  | New
+L1312: LT03706  | Lumateperone tosylate  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | New
+L1313: LT03707  | Lurbinectedin  | 3  | Warnings & precautions  | Ambiguous-DILI-concern  | New
+L1314: LT03708  | Lusutrombopag  | 0  | No match  | ^{v}No-DILI-concern  | New
+L1315: LT03709  | Macimorelin acetate  | 0  | No match  | ^{v}No-DILI-concern  | New
+L1316: LT03710  | Maralixibat chloride  | 4  | Warnings & precautions  | Ambiguous-DILI-concern  | New
+L1317: LT03712  | Migalastat hydrochloride  | 0  | No match  | ^{v}No-DILI-concern  | New
+L1318: LT03713  | Mobocertinib succinate  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | New
+L1319: LT03714  | Monomethyl fumarate  | 4  | Warnings & precautions  | Ambiguous-DILI-concern  | New
+L1320: LT03715  | Moxidectin  | 4  | Adverse reactions  | Ambiguous-DILI-concern  | New
+L1321: LT03716  | Naldemedine tosylate  | 0  | No match  | ^{v}No-DILI-concern  | New
+L1322: LT03717  | Naloxegol oxalate  | 0  | No match  | ^{v}No-DILI-concern  | New
+L1323: LT03718  | Nintedanib esylate  | 8  | Warnings & precautions  | ^{v}Most-DILI-concern  | New
+L1324: LT03719  | Niraparib tosylate  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | New
+L1325: LT03720  | Nusinersen sodium  | 0  | No match  | ^{v}No-DILI-concern  | New
+L1326: LT03721  | Odevixibat  | 4  | Warnings & precautions  | Ambiguous-DILI-concern  | New
+L1327: LT03722  | Olaparib  | 0  | No match  | ^{v}Less-DILI-concern  | New
+L1328: LT03723  | Oliceridine  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | New
+L1329: LT03725  | Opicapone  | 0  | No match  | ^{v}No-DILI-concern  | New
+L1330: LT03726  | Osilodrostat phosphate  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | New
+L1331: LT03727  | Osimertinib mesylate  | 4  | Adverse reactions  | ^{v}Less-DILI-concern  | New
+L1332: LT03728  | Ozanimod hydrochloride  | 3  | Warnings & precautions  | Ambiguous-DILI-concern  | New
+L1333: LT03729  | Pafolacianine sodium  | 0  | No match  | ^{v}No-DILI-concern  | New
+L1334: LT03730  | Patiromer sorbitex calcium  | 0  | No match  | ^{v}No-DILI-concern  | New
+L1335: LT03731  | Patisiran sodium  | 0  | No match  | ^{v}No-DILI-concern  | New
+L1336: LT03732  | Pegcetacoplan  | 0  | No match  | ^{v}No-DILI-concern  | New
+L1337: LT03733  | Pemigatinib  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | New
+L1338: LT03734  | Peramivir  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | New
+L1339: LT03735  | Pexidartinib hydrochloride  | 8  | Box warning  | ^{v}Most-DILI-concern  | New
+L1340: LT03736  | Pimavanserin tartrate  | 0  | No match  | ^{v}No-DILI-concern  | New
+L1341: LT03737  | Pitolisant hydrochloride  | 0  | No match  | ^{v}No-DILI-concern  | New
+L1342: LT03738  | Plazomicin sulfate  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | New
+L1343: LT03739  | Plecanatide  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | New
+L1344: LT03740  | Ponesimod  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | New
+L1345: LT03741  | Pralsetinib  | 3  | Warnings & precautions  | Ambiguous-DILI-concern  | New
+L1346: LT03742  | Pretomanid  | 4  | Adverse reactions  | Ambiguous-DILI-concern  | New
+L1347: LT03743  | Relugolix  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | New
+L1348: LT03744  | Remimazolam besylate  | 0  | No match  | ^{v}No-DILI-concern  | New
+L1349: LT03745  | Rifamycin sodium  | 0  | No match  | ^{v}No-DILI-concern  | New
+L1350: LT03746  | Rimegepant sulfate  | 0  | No match  | ^{v}No-DILI-concern  | New
+L1351: LT03747  | Ripretinib  | 4  | Adverse reactions  | Ambiguous-DILI-concern  | New
+L1352: LT03748  | Risdiplam  | 0  | No match  | ^{v}No-DILI-concern  | New
+L1353: LT03749  | Rolapitant hydrochloride  | 0  | No match  | ^{v}No-DILI-concern  | New
+L1354: LT03750  | Rucaparib camsylate  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | New
+L1355: LT03751  | Midostaurin  | 4  | Adverse reactions  | Ambiguous-DILI-concern  | New
+L1356: LT03752  | Safinamide mesylate  | 0  | No match  | ^{v}No-DILI-concern  | New
+L1357: LT03753  | Sarecycline hydrochloride  | 0  | No match  | ^{v}No-DILI-concern  | New
+L1358: LT03754  | Selenious acid  | 3  | Warnings & precautions  | Ambiguous-DILI-concern  | New
+L1359: LT03755  | Selexipag  | 0  | No match  | ^{v}No-DILI-concern  | New
+L1360: LT03756  | Selinexor  | 4  | Adverse reactions  | Ambiguous-DILI-concern  | New
+L1361: LT03757  | Selpercatinib  | 3  | Warnings & precautions  | Ambiguous-DILI-concern  | New
+L1362: LT03758  | Selumetinib sulfate  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | New
+L1363: LT03759  | Semaglutide  | 0  | No match  | ^{v}Less-DILI-concern  | New
+L1364: LT03760  | Setmelanotide acetate  | 0  | No match  | ^{v}No-DILI-concern  | New
+L1365: LT03761  | Siponimod  | 3  | Warnings & precautions  | Ambiguous-DILI-concern  | New
+L1366: LT03762  | Sodium zirconium cyclosilicate  | 0  | No match  | ^{v}No-DILI-concern  | New
+L1367: LT03763  | Solriamfetol hydrochloride  | 0  | No match  | ^{v}No-DILI-concern  | New
+L1368: LT03764  | Sonidegib phosphate  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | New
+L1369: LT03765  | Sotorasib  | 3  | Warnings & precautions  | Ambiguous-DILI-concern  | New
+L1370: LT03766  | Suvorexant  | 0  | No match  | ^{v}No-DILI-concern  | New
+L1371: LT03768  | Talazoparib tosylate  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | New
+L1372: LT03769  | Tazemetostat hydrobromide  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | New
+L1373: LT03770  | Tecovirimat  | 0  | No match  | ^{v}No-DILI-concern  | New
+L1374: LT03771  | Tedizolid phosphate  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | New
+L1375: LT03772  | Telotristat etiprate  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | New
+L1376: LT03773  | Tenapanor hydrochloride  | 0  | No match  | ^{v}No-DILI-concern  | New
+L1377: LT03775  | Tepotinib hydrochloride  | 7  | Warnings & precautions  | Ambiguous-DILI-concern  | New
+L1378: LT03776  | Tivozanib hydrochloride  | 4  | Adverse reactions  | Ambiguous-DILI-concern  | New
+L1379: LT03777  | Triheptanoin  | 0  | No match  | ^{v}No-DILI-concern  | New
+L1380: LT03778  | Trilaciclib dihydrochloride  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | New
+L1381: LT03779  | Tucatinib  | 4  | Warnings & precautions  | Ambiguous-DILI-concern  | New
+L1382: LT03780  | Ubrogepant  | 0  | No match  | ^{v}No-DILI-concern  | New
+L1383: LT03781  | Umbralisib tosylate  | 3  | Warnings & precautions  | Ambiguous-DILI-concern  | New
+L1384: LT03782  | Umeclidinium bromide  | 0  | No match  | ^{v}No-DILI-concern  | New
+L1385: LT03783  | Upadacitinib  | 3  | Warnings & precautions  | Ambiguous-DILI-concern  | New
+L1386: LT03784  | Uridine triacetate  | 0  | No match  | ^{v}No-DILI-concern  | New
+L1387: LT03785  | Valbenazine tosylate  | 4  | Adverse reactions  | Ambiguous-DILI-concern  | New
+L1388: LT03786  | Venetoclax  | 3  | Adverse reactions  | ^{v}Less-DILI-concern  | New
+L1389: LT03787  | Vericiguat  | 0  | No match  | ^{v}No-DILI-concern  | New
+L1390: LT03788  | Vibegron  | 0  | No match  | ^{v}No-DILI-concern  | New
+L1391: LT03789  | Viltolarsen  | 0  | No match  | ^{v}No-DILI-concern  | New
+L1392: LT03790  | Vorapaxar sulfate  | 0  | No match  | ^{v}No-DILI-concern  | New
+L1393: LT03791  | Vosoritide  | 0  | No match  | ^{v}No-DILI-concern  | New
+L1394: LT03792  | Voxelotor  | 0  | No match  | ^{v}No-DILI-concern  | New
+L1395: LT03798  | Betrixaban  | 0  | No match  | ^{v}No-DILI-concern  | New
+L1396: LT03819  | Remdesivir  | 3  | Warnings & precautions  | ^{v}Less-DILI-concern  | New
+L1397: LT03852  | Lefamulin acetate  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | New
+L1398: LT03868  | Brilliant blue g  | 0  | No match  | ^{v}No-DILI-concern  | New
+L1399: LT03895  | Amifampridine phosphate  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | New
+L1400: LT03896  | Omadacycline tosylate  | 3  | Adverse reactions  | Ambiguous-DILI-concern  | New
+L1401: LT03897  | Oritavancin diphosphate  | 4  | Adverse reactions  | Ambiguous-DILI-concern  | New
+L1402: LT03898  | Tafenoquine succinate  | 5  | Adverse reactions  | Ambiguous-DILI-concern  | New
+L1403: LT03899  | Choline c-11  | 0  | No match  | ^{v}No-DILI-concern  | New
+L1404: LT03900  | Copper cu-64 dotatate  | 0  | No match  | ^{v}No-DILI-concern  | New
+L1405: LT03901  | Gallium dotatate ga-68  | 0  | No match  | ^{v}No-DILI-concern  | New
+L1406: LT03902  | Gallium ga-68 edotreotide  | 0  | No match  | ^{v}No-DILI-concern  | New
+L1407: LT03903  | Florbetaben f-18  | 0  | No match  | ^{v}No-DILI-concern  | New
+L1408: LT03904  | Florbetapir f-18  | 0  | No match  | ^{v}No-DILI-concern  | New
+L1409: LT03905  | Flortaucipir f-18  | 0  | No match  | ^{v}No-DILI-concern  | New
+L1410: LT03906  | Fluciclovine f-18  | 0  | No match  | ^{v}No-DILI-concern  | New
+L1411: LT03907  | Fluorodopa f-18  | 0  | No match  | ^{v}No-DILI-concern  | New
+L1412: LT03908  | Fluoroestradiol f-18  | 0  | No match  | ^{v}No-DILI-concern  | New
+L1413: LT03909  | Flutemetamol f-18  | 0  | No match  | ^{v}No-DILI-concern  | New
+L1414: LT03910  | Gallium ga-68 gozetotide  | 0  | No match  | ^{v}No-DILI-concern  | New
+L1415: LT03911  | Ioflupane i-123  | 0  | No match  | ^{v}No-DILI-concern  | New
+L1416: LT03912  | Lutetium lu 177 dotatate  | 6  | Warnings & precautions  | Ambiguous-DILI-concern  | New
+L1417: LT03913  | Radium ra-223 dichloride  | 0  | No match  | ^{v}No-DILI-concern  | New
+L1418: LT03914  | Sodium fluoride f-18  | 0  | No match  | ^{v}No-DILI-concern  | New
+L1419: LT03915  | Piflufolastat f-18  | 0  | No match  | ^{v}No-DILI-concern  | New
+L1420: 
+L1421: 
+L1422: 
+L1423: 
+L1424: [Button: Feedback]
+L1425: 
+L1426:   * cite44†FDA Archive L1427:   * cite21†About FDA L1428:   * cite45†Accessibility L1429: 
+L1430:   * cite46†Visitor Information L1431:   * cite47†Website Policies / Privacy L1432:   * cite48†No FEAR Act L1433:   * cite49†Vulnerability Disclosure Policy†www.hhs.gov L1434: 
+L1435:   * cite50†FOIA L1436:   * cite51†HHS.gov†www.hhs.gov L1437:   * cite52†USA.gov†www.usa.gov L1438: cite6†Contact FDA cite53†Follow FDA on Facebook†www.facebook.com cite54†Follow FDA on X†x.com cite55†Follow FDA on Instagram†instagram.com L1439: cite56†Follow FDA on LinkedIn†www.linkedin.com cite57†View FDA videos on YouTube†youtube.com cite58†Subscribe to FDA RSS feeds L1440: 
+L1441: Contact Number 1-888-INFO-FDA (1-888-463-6332)
+L1442: 
+L1443: Back to Top
+

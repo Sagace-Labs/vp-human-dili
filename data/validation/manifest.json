@@ -1,0 +1,16 @@
+{
+  "source": "FDA DILIrank 2.0 official table and PubChem name-resolution assertions",
+  "packaged": "2026-10-04",
+  "n": 119,
+  "positive": 35,
+  "dataset_sha256": "30b591ee77161b8be31b61b582aa77ddf72c923bd4bc4d1c139a3193d4af3569",
+  "primary_dataset_sha256": "9892ba3810d6122accf23a56f1ed5c5a8922f14017cc05f76004184bfdcbc33f",
+  "source_hashes": {
+    "sources/fda_web_snapshot.txt": "16b7c594d66a0148b8e7b6b83a9ea3549f7b8d13d776898028f797f52f238b29",
+    "sources/pubchem_assertions.json": "149b5c2daf138b62d53edc4c1590492516ac9710774d52df8f6c45e658cce960",
+    "resolutions.csv": "503975974b60a4c55af84deaa4f612b840c512ce84644e0e852551cde5058411",
+    "exclusions.csv": "8b628fd99321cbd5c0c8705863f929d75754ae9768f28d3b7e0a4164b6259fc6"
+  },
+  "split_key_sha256": "2c3a2154a6b1fbf84b54febddf0cb5ea1abe81c03e6c594cb720d089592c0a91",
+  "source_snapshot_recorded": "2026-10-02"
+}

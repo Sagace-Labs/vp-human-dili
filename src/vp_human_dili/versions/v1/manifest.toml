@@ -1,0 +1,64 @@
+schema = 1
+pathway = "human-dili"
+version = "v1"
+released = "2026-10-04"
+reason = "Initial counted-Morgan forest for human drug-level DILI labels with held-out calibration and unseen FDA drug validation"
+
+[signature]
+version = 1
+inputs = ["smiles"]
+
+[[signature.outputs]]
+name = "human_dili"
+dtype = "float32"
+range = [0.0, 1.0]
+semantics = "Structure-based probability of a positive drug-level DILIst-derived label, calibrated on held-out training-source drugs. It is not patient-specific DILI incidence or a clinical safety decision."
+missing = "NaN when a nonempty molecular structure cannot be parsed and standardized"
+
+[dataset]
+name = "DILIst-derived human drug-level gold-standard labels"
+source = "Seal et al. pinned gold-standard table, standardized to connectivity identities; conflicting labels excluded"
+url = "https://raw.githubusercontent.com/srijitseal/DILI/98b7a1b7fba4547cefe936b9890b44baab10e490/data/DILI_Goldstandard_1111.csv"
+retrieved = "2026-10-04"
+licence = "source-specific; not redistributed"
+redistributable = false
+sha256 = "9892ba3810d6122accf23a56f1ed5c5a8922f14017cc05f76004184bfdcbc33f"
+n_rows = 1096
+base_rate = 0.6459854015
+labels = ["label"]
+source_sha256 = "a86fd3a71c6832aac5e89bcdc35bdd27c000d6449260e4467a92982ae8e89be6"
+fetch = "python -m vp_human_dili.data fetch --verify"
+
+[model]
+family = "balanced-random-forest"
+features = "morgan2_count_2048"
+fit = "300 trees fit on 932 compounds; 164 compounds in a 15% scaffold carve calibrate scores and select the classification threshold only"
+weights = "weights.joblib"
+sha256 = "4af0a6f8c1303e3c8106b46b678533b1d5d745fe0de525386f3e2420b5ec0089"
+seed = 101
+n_estimators = 300
+class_weight = "balanced"
+selected_min_samples_leaf = 2
+selected_max_features = "sqrt"
+classification_threshold = 0.6924142955
+calibration_fraction = 0.15
+
+[protocol]
+id = "scaffold-balanced-5seed@1"
+provider = "vp-core"
+core_version = "1.8.0"
+
+[provenance]
+python = "3.11.11"
+rdkit = "2026.03.5"
+xgboost = "3.2.0"
+sklearn = "1.9.0"
+numpy = "2.4.6"
+pandas = "3.0.5"
+joblib = "1.5.3"
+platform = "Windows"
+device = "cpu"
+
+[intended_use]
+scope = "Research screening of molecular structures for association with human drug-level DILI labels. Inference requires SMILES only."
+limitations = "The score is not patient-specific risk, dose-response or proof of clinical safety. Model-family selection used previously examined scaffold test splits. The FDA validation cohort is an unseen-drug source-transfer check using related label sources, not prospective or independently adjudicated clinical validation. Calibration transfers poorly; low structure similarity and unresolved formulations limit coverage."

@@ -1,0 +1,7 @@
+* text=auto
+*.py text eol=lf
+*.md text eol=lf
+*.toml text eol=lf
+*.joblib -text
+*.parquet -text
+data/validation/** -text whitespace=-blank-at-eol,-blank-at-eof,cr-at-eol

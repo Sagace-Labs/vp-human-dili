@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+title: "vp-human-dili: structure-based human drug-level DILI label prediction"
+message: "Please cite this software and the clinical label sources documented in data/README.md."
+type: software
+authors:
+  - name: "Sagace Labs"
+repository-code: "https://github.com/Sagace-Labs/vp-human-dili"
+license: Apache-2.0
+version: "1.0.0"
+date-released: "2026-10-04"
+abstract: >-
+  A counted-Morgan random forest predicts human drug-level DILI labels from
+  molecular structure, with scaffold evaluation and an unseen FDA drug
+  source-transfer check. Intended for research screening.

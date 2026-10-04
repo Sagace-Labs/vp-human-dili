@@ -1,0 +1,626 @@
+{
+  "schema": 2,
+  "pathway": "human-dili",
+  "version": "v1",
+  "protocols": {
+    "human-dili-fda-new-unseen-scaffold@1": {
+      "protocol_id": "human-dili-fda-new-unseen-scaffold@1",
+      "dataset_sha256": "30b591ee77161b8be31b61b582aa77ddf72c923bd4bc4d1c139a3193d4af3569",
+      "dataset": "full",
+      "evaluated": "2026-10-04",
+      "n": {
+        "total": 1096,
+        "train": 932,
+        "val": 164,
+        "test": 119
+      },
+      "folds": [
+        {
+          "seed": 101,
+          "train": 932,
+          "val": 164,
+          "test": 119,
+          "train_positive": 605,
+          "val_positive": 103,
+          "test_positive": 35
+        }
+      ],
+      "test": {
+        "auc_roc": {
+          "mean": 0.6166666666666667,
+          "std": 0.0,
+          "per_seed": [
+            0.616667
+          ],
+          "n_finite": 1
+        },
+        "auprc": {
+          "mean": 0.3518563791964024,
+          "std": 0.0,
+          "per_seed": [
+            0.351856
+          ],
+          "n_finite": 1
+        },
+        "mcc": {
+          "mean": 0.14874102932718242,
+          "std": 0.0,
+          "per_seed": [
+            0.148741
+          ],
+          "n_finite": 1
+        },
+        "brier": {
+          "mean": 0.33892974726920666,
+          "std": 0.0,
+          "per_seed": [
+            0.33893
+          ],
+          "n_finite": 1
+        }
+      },
+      "notes": [
+        "This fixed FDA New cohort contains 35 positive and 84 negative drugs after primary identity/scaffold exclusion. Its related label sources provide source-transfer evidence, not independently adjudicated clinical validation. The single-seed standard deviation of zero is not an uncertainty estimate.",
+        "At validation-selected threshold 0.692414: TP=22, FP=34, FN=13, TN=50; sensitivity 0.629, specificity 0.595, precision 0.393.",
+        "Raw-score Brier 0.272; calibrated Brier 0.339. Calibration was fitted using primary-source labels only. This diagnostic does not select a replacement pipeline."
+      ],
+      "diagnostics": {
+        "raw_test": {
+          "auc_roc": {
+            "mean": 0.6166666666666667,
+            "std": 0.0,
+            "per_seed": [
+              0.616667
+            ],
+            "n_finite": 1
+          },
+          "auprc": {
+            "mean": 0.3518563791964024,
+            "std": 0.0,
+            "per_seed": [
+              0.351856
+            ],
+            "n_finite": 1
+          },
+          "mcc": {
+            "mean": 0.20487199499220213,
+            "std": 0.0,
+            "per_seed": [
+              0.204872
+            ],
+            "n_finite": 1
+          },
+          "brier": {
+            "mean": 0.2720026179432238,
+            "std": 0.0,
+            "per_seed": [
+              0.272003
+            ],
+            "n_finite": 1
+          }
+        },
+        "folds": [
+          {
+            "seed": 101,
+            "selection": [
+              {
+                "params": {
+                  "min_samples_leaf": 2,
+                  "max_features": "sqrt"
+                },
+                "mean_inner_auprc": 0.7528956646167497,
+                "per_inner_auprc": [
+                  0.7661442855156484,
+                  0.7398752549518327,
+                  0.7526674533827681
+                ]
+              },
+              {
+                "params": {
+                  "min_samples_leaf": 5,
+                  "max_features": 0.25
+                },
+                "mean_inner_auprc": 0.7487762922215125,
+                "per_inner_auprc": [
+                  0.7566698162562805,
+                  0.7409395291943062,
+                  0.7487195312139512
+                ]
+              }
+            ],
+            "chosen_params": {
+              "min_samples_leaf": 2,
+              "max_features": "sqrt"
+            },
+            "operating": {
+              "threshold": 0.6924142955051448,
+              "tp": 22,
+              "fp": 34,
+              "fn": 13,
+              "tn": 50,
+              "mcc": 0.20430920795827626,
+              "sensitivity": 0.6285714285714286,
+              "specificity": 0.5952380952380952,
+              "precision": 0.39285714285714285
+            },
+            "validation_operating": {
+              "threshold": 0.6924142955051448,
+              "tp": 40,
+              "fp": 8,
+              "fn": 63,
+              "tn": 53,
+              "mcc": 0.2732173113631951,
+              "sensitivity": 0.3883495145631068,
+              "specificity": 0.8688524590163934,
+              "precision": 0.8333333333333334
+            }
+          }
+        ],
+        "environment": {
+          "python": "3.11.11",
+          "rdkit": "2026.03.5",
+          "xgboost": "3.2.0",
+          "sklearn": "1.9.0",
+          "numpy": "2.4.6",
+          "pandas": "3.0.5",
+          "joblib": "1.5.3",
+          "platform": "Windows",
+          "device": "cpu"
+        }
+      }
+    },
+    "scaffold-balanced-5seed@1": {
+      "protocol_id": "scaffold-balanced-5seed@1",
+      "dataset_sha256": "9892ba3810d6122accf23a56f1ed5c5a8922f14017cc05f76004184bfdcbc33f",
+      "dataset": "full",
+      "evaluated": "2026-10-04",
+      "n": {
+        "total": 1096,
+        "train": 822,
+        "val": 110,
+        "test": 164
+      },
+      "folds": [
+        {
+          "seed": 0,
+          "train": 822,
+          "val": 110,
+          "test": 164,
+          "train_positive": 530,
+          "val_positive": 68,
+          "test_positive": 110
+        },
+        {
+          "seed": 1,
+          "train": 822,
+          "val": 110,
+          "test": 164,
+          "train_positive": 521,
+          "val_positive": 77,
+          "test_positive": 110
+        },
+        {
+          "seed": 2,
+          "train": 822,
+          "val": 110,
+          "test": 164,
+          "train_positive": 533,
+          "val_positive": 71,
+          "test_positive": 104
+        },
+        {
+          "seed": 3,
+          "train": 822,
+          "val": 110,
+          "test": 164,
+          "train_positive": 531,
+          "val_positive": 75,
+          "test_positive": 102
+        },
+        {
+          "seed": 4,
+          "train": 822,
+          "val": 110,
+          "test": 164,
+          "train_positive": 531,
+          "val_positive": 74,
+          "test_positive": 103
+        }
+      ],
+      "test": {
+        "auc_roc": {
+          "mean": 0.705442950338452,
+          "std": 0.03018505875926037,
+          "per_seed": [
+            0.694108,
+            0.706397,
+            0.702724,
+            0.758539,
+            0.665446
+          ],
+          "n_finite": 5
+        },
+        "auprc": {
+          "mean": 0.8072254156458749,
+          "std": 0.01499957338503428,
+          "per_seed": [
+            0.821534,
+            0.828335,
+            0.79124,
+            0.801395,
+            0.793622
+          ],
+          "n_finite": 5
+        },
+        "mcc": {
+          "mean": 0.13907180673101927,
+          "std": 0.07757698228190997,
+          "per_seed": [
+            0.219395,
+            0.203859,
+            0.142478,
+            0.0,
+            0.129627
+          ],
+          "n_finite": 5
+        },
+        "brier": {
+          "mean": 0.2121255455558373,
+          "std": 0.009191892916946793,
+          "per_seed": [
+            0.205366,
+            0.199793,
+            0.210225,
+            0.22202,
+            0.223223
+          ],
+          "n_finite": 5
+        }
+      },
+      "notes": [
+        "Model-family selection used previously examined test splits; these scaffold scores remain exploratory. Standard deviations summarize seeds, not confidence intervals.",
+        "Validation-selected threshold means: mcc 0.230, sensitivity 0.797, specificity 0.399. Fixed-0.5 MCC is in the metric table."
+      ],
+      "diagnostics": {
+        "raw_test": {
+          "auc_roc": {
+            "mean": 0.705442950338452,
+            "std": 0.03018505875926037,
+            "per_seed": [
+              0.694108,
+              0.706397,
+              0.702724,
+              0.758539,
+              0.665446
+            ],
+            "n_finite": 5
+          },
+          "auprc": {
+            "mean": 0.8072254156458749,
+            "std": 0.01499957338503428,
+            "per_seed": [
+              0.821534,
+              0.828335,
+              0.79124,
+              0.801395,
+              0.793622
+            ],
+            "n_finite": 5
+          },
+          "mcc": {
+            "mean": 0.25677389978906195,
+            "std": 0.06637394607462989,
+            "per_seed": [
+              0.268786,
+              0.284662,
+              0.24219,
+              0.345537,
+              0.142695
+            ],
+            "n_finite": 5
+          },
+          "brier": {
+            "mean": 0.2101919710605586,
+            "std": 0.006787512423779546,
+            "per_seed": [
+              0.21308,
+              0.206394,
+              0.211851,
+              0.199704,
+              0.219931
+            ],
+            "n_finite": 5
+          }
+        },
+        "folds": [
+          {
+            "seed": 0,
+            "selection": [
+              {
+                "params": {
+                  "min_samples_leaf": 2,
+                  "max_features": "sqrt"
+                },
+                "mean_inner_auprc": 0.7338641527442334,
+                "per_inner_auprc": [
+                  0.7113842805714368,
+                  0.7419972866272018,
+                  0.7482108910340619
+                ]
+              },
+              {
+                "params": {
+                  "min_samples_leaf": 5,
+                  "max_features": 0.25
+                },
+                "mean_inner_auprc": 0.7372278390107269,
+                "per_inner_auprc": [
+                  0.7240598924736664,
+                  0.7299159904548014,
+                  0.7577076341037126
+                ]
+              }
+            ],
+            "chosen_params": {
+              "min_samples_leaf": 5,
+              "max_features": 0.25
+            },
+            "operating": {
+              "threshold": 0.4884643060113884,
+              "tp": 98,
+              "fp": 39,
+              "fn": 12,
+              "tn": 15,
+              "mcc": 0.21376290035470816,
+              "sensitivity": 0.8909090909090909,
+              "specificity": 0.2777777777777778,
+              "precision": 0.7153284671532847
+            },
+            "validation_operating": {
+              "threshold": 0.4884643060113884,
+              "tp": 67,
+              "fp": 31,
+              "fn": 1,
+              "tn": 11,
+              "mcc": 0.38523163029876023,
+              "sensitivity": 0.9852941176470589,
+              "specificity": 0.2619047619047619,
+              "precision": 0.6836734693877551
+            }
+          },
+          {
+            "seed": 1,
+            "selection": [
+              {
+                "params": {
+                  "min_samples_leaf": 2,
+                  "max_features": "sqrt"
+                },
+                "mean_inner_auprc": 0.6985372195953987,
+                "per_inner_auprc": [
+                  0.6687278145443685,
+                  0.6976721760976836,
+                  0.7292116681441442
+                ]
+              },
+              {
+                "params": {
+                  "min_samples_leaf": 5,
+                  "max_features": 0.25
+                },
+                "mean_inner_auprc": 0.6785960948364672,
+                "per_inner_auprc": [
+                  0.6612500839415372,
+                  0.6589390592051322,
+                  0.7155991413627322
+                ]
+              }
+            ],
+            "chosen_params": {
+              "min_samples_leaf": 2,
+              "max_features": "sqrt"
+            },
+            "operating": {
+              "threshold": 0.3943280232370201,
+              "tp": 109,
+              "fp": 51,
+              "fn": 1,
+              "tn": 3,
+              "mcc": 0.14155521462623263,
+              "sensitivity": 0.990909090909091,
+              "specificity": 0.05555555555555555,
+              "precision": 0.68125
+            },
+            "validation_operating": {
+              "threshold": 0.3943280232370201,
+              "tp": 77,
+              "fp": 28,
+              "fn": 0,
+              "tn": 5,
+              "mcc": 0.3333333333333333,
+              "sensitivity": 1.0,
+              "specificity": 0.15151515151515152,
+              "precision": 0.7333333333333333
+            }
+          },
+          {
+            "seed": 2,
+            "selection": [
+              {
+                "params": {
+                  "min_samples_leaf": 2,
+                  "max_features": "sqrt"
+                },
+                "mean_inner_auprc": 0.7656104902915759,
+                "per_inner_auprc": [
+                  0.7641608696081323,
+                  0.7983548057367571,
+                  0.7343157955298381
+                ]
+              },
+              {
+                "params": {
+                  "min_samples_leaf": 5,
+                  "max_features": 0.25
+                },
+                "mean_inner_auprc": 0.7428910007929027,
+                "per_inner_auprc": [
+                  0.7399989334710924,
+                  0.7683673878973503,
+                  0.7203066810102653
+                ]
+              }
+            ],
+            "chosen_params": {
+              "min_samples_leaf": 2,
+              "max_features": "sqrt"
+            },
+            "operating": {
+              "threshold": 0.5028247287737861,
+              "tp": 95,
+              "fp": 49,
+              "fn": 9,
+              "tn": 11,
+              "mcc": 0.14247819346319499,
+              "sensitivity": 0.9134615384615384,
+              "specificity": 0.18333333333333332,
+              "precision": 0.6597222222222222
+            },
+            "validation_operating": {
+              "threshold": 0.5028247287737861,
+              "tp": 70,
+              "fp": 28,
+              "fn": 1,
+              "tn": 11,
+              "mcc": 0.41118642330222616,
+              "sensitivity": 0.9859154929577465,
+              "specificity": 0.28205128205128205,
+              "precision": 0.7142857142857143
+            }
+          },
+          {
+            "seed": 3,
+            "selection": [
+              {
+                "params": {
+                  "min_samples_leaf": 2,
+                  "max_features": "sqrt"
+                },
+                "mean_inner_auprc": 0.7362347507862506,
+                "per_inner_auprc": [
+                  0.7424528584615455,
+                  0.7269925943670128,
+                  0.7392587995301935
+                ]
+              },
+              {
+                "params": {
+                  "min_samples_leaf": 5,
+                  "max_features": 0.25
+                },
+                "mean_inner_auprc": 0.7265565775302264,
+                "per_inner_auprc": [
+                  0.718038213343668,
+                  0.7263284238223828,
+                  0.7353030954246285
+                ]
+              }
+            ],
+            "chosen_params": {
+              "min_samples_leaf": 2,
+              "max_features": "sqrt"
+            },
+            "operating": {
+              "threshold": 0.6847764483745632,
+              "tp": 60,
+              "fp": 12,
+              "fn": 42,
+              "tn": 50,
+              "mcc": 0.3856456957435754,
+              "sensitivity": 0.5882352941176471,
+              "specificity": 0.8064516129032258,
+              "precision": 0.8333333333333334
+            },
+            "validation_operating": {
+              "threshold": 0.6847764483745632,
+              "tp": 43,
+              "fp": 12,
+              "fn": 32,
+              "tn": 23,
+              "mcc": 0.2146980160486773,
+              "sensitivity": 0.5733333333333334,
+              "specificity": 0.6571428571428571,
+              "precision": 0.7818181818181819
+            }
+          },
+          {
+            "seed": 4,
+            "selection": [
+              {
+                "params": {
+                  "min_samples_leaf": 2,
+                  "max_features": "sqrt"
+                },
+                "mean_inner_auprc": 0.7516227256141667,
+                "per_inner_auprc": [
+                  0.731594682022175,
+                  0.7849746056669807,
+                  0.7382988891533444
+                ]
+              },
+              {
+                "params": {
+                  "min_samples_leaf": 5,
+                  "max_features": 0.25
+                },
+                "mean_inner_auprc": 0.7358296585215093,
+                "per_inner_auprc": [
+                  0.7151781026101531,
+                  0.7554788679534199,
+                  0.7368320050009549
+                ]
+              }
+            ],
+            "chosen_params": {
+              "min_samples_leaf": 2,
+              "max_features": "sqrt"
+            },
+            "operating": {
+              "threshold": 0.7033523485885643,
+              "tp": 62,
+              "fp": 20,
+              "fn": 41,
+              "tn": 41,
+              "mcc": 0.2649328216136462,
+              "sensitivity": 0.6019417475728155,
+              "specificity": 0.6721311475409836,
+              "precision": 0.7560975609756098
+            },
+            "validation_operating": {
+              "threshold": 0.7033523485885643,
+              "tp": 48,
+              "fp": 7,
+              "fn": 26,
+              "tn": 29,
+              "mcc": 0.42624134206067066,
+              "sensitivity": 0.6486486486486487,
+              "specificity": 0.8055555555555556,
+              "precision": 0.8727272727272727
+            }
+          }
+        ],
+        "environment": {
+          "python": "3.11.11",
+          "rdkit": "2026.03.5",
+          "xgboost": "3.2.0",
+          "sklearn": "1.9.0",
+          "numpy": "2.4.6",
+          "pandas": "3.0.5",
+          "joblib": "1.5.3",
+          "platform": "Windows",
+          "device": "cpu"
+        }
+      }
+    }
+  }
+}
